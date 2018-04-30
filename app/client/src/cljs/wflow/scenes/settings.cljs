@@ -1,4 +1,4 @@
-(ns wflow.scenes.home
+(ns wflow.scenes.settings
   (:require [re-frame.core :as re-frame]
             [reagent.core :as r]
             [soda-ash.core :as sa]
@@ -37,4 +37,6 @@
 
 
 (defmethod router/panels :home [] (re-frame/dispatch [:navigate [:workflow/mine]]))
+
+(defmethod router/panels :settings [] [home-panel])
 
