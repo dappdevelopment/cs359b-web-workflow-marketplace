@@ -1,0 +1,29 @@
+{
+  "name": "cs359b-web-workflow-marketplace",
+  "version": "1.0.0",
+  "description": "Many business tasks are repetitive: filling out forms for QA testers, moving data between spreadsheets for salespeople, syncing data between apps for HR, etc. Allowing designers to build and sell workflows helps users automate menial tasks and focus on core competencies.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappdevelopment/cs359b-web-workflow-marketplace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dappdevelopment/cs359b-web-workflow-marketplace/issues"
+  },
+  "homepage": "https://github.com/dappdevelopment/cs359b-web-workflow-marketplace#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.34"
+  }
+}
