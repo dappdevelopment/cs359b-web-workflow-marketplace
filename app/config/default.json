@@ -1,7 +1,7 @@
 {
   "host": "localhost",
   "port": 3232,
-  "public": "../public/",
+  "public": "../client/resources/public/",
   "paginate": {
     "default": 10,
     "max": 50
