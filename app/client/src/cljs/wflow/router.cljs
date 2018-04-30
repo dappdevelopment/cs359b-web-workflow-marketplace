@@ -22,7 +22,10 @@
                   static-resources
                   {""    :home
                    "/"   :home
-                   "/workflows" :workflows
+                   "/marketplace" :marketplace
+                   "/workflow/mine" :workflow/mine
+                   "/workflow/create" :workflow/create
+                   "/settings" :settings
                    "/debug" :debug})])
 
 

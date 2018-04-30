@@ -42,12 +42,27 @@
       :style {:width 27}
       :spaced "right"}]
     [:strong "Web Workflows"]]
-   [sa/MenuItem {:name "workflows"
-                 :active (= @active-item :workflows)
-                 :on-click #(handle-item-click :workflows)}
+   [sa/MenuItem {:name "workflow/mine"
+                 :active (= @active-item :workflow/mine)
+                 :on-click #(handle-item-click :workflow/mine)}
     [sa/Icon {:name "briefcase" :style float-left}]
     [sa/Label {:color "red"} "1"]
-    "Workflows"]
+    "My Workflows"]
+   [sa/MenuItem {:name "workflow/create"
+                 :active (= @active-item :workflow/create)
+                 :on-click #(handle-item-click :workflow/create)}
+    [sa/Icon {:name "plus" :style float-left}]
+    "Create Workflow"]
+   [sa/MenuItem {:name "marketplace"
+                 :active (= @active-item :marketplace)
+                 :on-click #(handle-item-click :marketplace)}
+    [sa/Icon {:name "search" :style float-left}]
+    "Find Workflows"]
+   [sa/MenuItem {:name "settings"
+                 :active (= @active-item :settings)
+                 :on-click #(handle-item-click :settings)}
+    [sa/Icon {:name "setting" :style float-left}]
+    "Settings"]
    [sa/MenuItem {:name "debug"
                  :active (= @active-item :debug)
                  :on-click #(handle-item-click :debug)}

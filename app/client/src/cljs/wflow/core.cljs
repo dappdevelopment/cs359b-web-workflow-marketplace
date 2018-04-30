@@ -3,6 +3,11 @@
             [re-frame.core :as re-frame]
 
             [wflow.scenes.home]
+            [wflow.scenes.settings]
+            [wflow.scenes.workflow.create]
+            [wflow.scenes.workflow.marketplace]
+            [wflow.scenes.workflow.mine]
+            [wflow.scenes.debug]
 
             [wflow.router :as router]
             [wflow.config :as config]))
