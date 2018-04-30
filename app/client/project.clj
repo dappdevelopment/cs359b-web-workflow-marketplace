@@ -35,7 +35,7 @@
                                    ;; in the default browser once Figwheel has
                                    ;; started and complied your application.
                                    ;; Comment this out once it no longer serves you.
-                                   :open-urls ["http://localhost:3449/cards.html"]}
+                                   :open-urls ["http://localhost:3233/cards.html"]}
                         :compiler { :main       "wflow.core"
                                     :asset-path "js/compiled/devcards_out"
                                     :output-to  "resources/public/js/compiled/wflow_devcards.js"
@@ -61,7 +61,8 @@
                                    :output-to  "resources/public/js/compiled/wflow.js"
                                    :optimizations :advanced}}]}
 
-  :figwheel { :css-dirs ["resources/public/css"] }
+  :figwheel {:css-dirs ["resources/public/css"]
+             :server-port 3233}
 
   :profiles {:dev {:dependencies [[binaryage/devtools "0.9.4"]
                                   #_[day8.re-frame/re-frame-10x "0.2.0"]
