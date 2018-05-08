@@ -7,6 +7,9 @@ module.exports = function (app) {
   const workflows = new mongooseClient.Schema({
     slug: { type: String, required: true, unique: true },
     name: { type: String, required: true},
+    numExe: { type: Number, required: true, default: 0},
+    numSuccess: { type: Number, required: true, default: 0},
+    tags: [String],
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
   });
