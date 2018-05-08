@@ -9,6 +9,7 @@
             [wflow.scenes.workflow.mine]
             [wflow.scenes.debug]
 
+            [wflow.services.toast :as toast]
             [wflow.router :as router]
             [wflow.config :as config]))
 
