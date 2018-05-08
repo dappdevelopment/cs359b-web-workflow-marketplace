@@ -3,8 +3,10 @@
             [reagent.core :as r]
             [soda-ash.core :as sa]
             [clojure.pprint :refer [pprint]]
+            [goog.dom :as gdom]
             [wflow.components.layout :as layout]
             [wflow.router :as router]
+            [wflow.utils.forms :as forms]
             [wflow.services.workflow :as workflow]
             [wflow.utils.transit :as t]))
 
@@ -17,10 +19,41 @@
    :bottom 0})
 
 
+(re-frame/reg-event-fx
+  ::create-workflow
+  (fn [{:keys [db]} [_ data]]
+    {:ajax {:request ["POST" "/workflows" {:data data}]
+            :success [:toast "success" "workflow created!"]
+            :fail [:toast "error" "failed to save workflow"]}}))
+
+
+(defn create-workflow [e]
+  (let [form-element (gdom/getElement "create-workflow")
+        data (forms/serialize-form form-element)]
+    ;; TODO clear form once success/fail returns....
+    (.reset form-element)
+    (re-frame/dispatch [::create-workflow data])))
 
 
 (defn workflows []
-  [:h3 "hi"])
+  [sa/Grid {:centered true :columns 3}
+   [sa/GridRow
+    [sa/GridColumn
+     [sa/Form
+      {:id "create-workflow"
+       :on-submit create-workflow}
+      [sa/FormField
+       [:label "Workflow name"]
+       [:input {:placeholder "Workflow name"
+                :name "name"}]]
+      [sa/FormField
+       [:label "Unique Identifier"]
+       [:input {:placeholder "ID"
+                :name "slug"}]]
+      [:span "TODO TAGS"]
+      [sa/FormField
+       [sa/Checkbox {:label "I agree to the Terms and Conditions"}]]
+      [sa/Button {:type "submit"} "Submit"]]]]])
 
 
 
@@ -35,8 +68,6 @@
      [:div {:style content-style}
       [workflows]]]))
 
-
-(defmethod router/panels :home [] (re-frame/dispatch [:navigate [:workflow/mine]]))
 
 (defmethod router/panels :workflow/create [] [home-panel])
 

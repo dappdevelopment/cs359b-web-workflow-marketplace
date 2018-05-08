@@ -26,44 +26,85 @@
   (re-frame/reg-sub-raw
     kw
     (fn [db [_ & args]]
-      (apply query args)
+      (apply query @db args)
 
       (reagent.ratom/make-reaction
         #(get-in @db path default)
         :on-dispose cleanup))))
 
 
+(defn- page-params [query]
+  (let [query (or query {:page 1})
+        page (:page query)]
+    (-> query
+      (assoc "$skip" (* 10 (dec page)))
+      ;; for mongodb backends especially
+      (assoc-in ["$sort" "created_at"] 1)
+      (dissoc :page))))
+
 
 
 ;; fetch remote data store
 (defn rest-store
-  [id {:keys [default persistence paging]
+  [id {:keys [default persistence paging url url-fn query-fn]
        :or {paging true
             default {:data []}}}]
   (let [path [:stores id]
         write! #(re-frame/dispatch [::write-path path %])
         clean! #(re-frame/dispatch [::clean-path path])
-        extend-kw #(keyword (str (name %1) %2))
-        query (fn [q]
-                (-> (server/ajax "GET" path {:query q})
-                  (.then write!)))
+        extend-kw #(keyword (namespace %1) (str (name %1) %2))
+        query-fn (if query-fn
+                   (fn [db q]
+                     (-> (query-fn db q)
+                       (js/Promise.resolve)
+                       (.then write!)))
+                   (fn [db q]
+                     (let [token (get-in db [:session :accessToken])
+                           url (if url-fn (url-fn db q) url)]
+                       (-> (server/ajax "GET" url {:query (cond-> q paging page-params)
+                                                   :authorization token})
+                         (.then write!)))))
         cleanup (case persistence
                   :memory identity
                   clean!)]
+
+    ;; reload event
+    (re-frame/reg-fx
+      [:reload-store id]
+      (fn [[db q]]
+        (query-fn db q)))
+
+    (re-frame/reg-event-fx
+      [:reload-store id]
+      (fn [{:keys [db]} [_ q]]
+        {:db db
+         [:reload-store id] [db q]}))
+
     (if paging
-      (let [page-id (extend-kw id "-meta")]
+      (let [page-id (extend-kw id "-page")
+            meta-id (extend-kw id "-meta")]
         (reg-sub-remote page-id {:path path
-                                 :query query
+                                 :query query-fn
                                  :cleanup cleanup
-                                 :default default})
+                                 :default {}})
+
+        (re-frame/reg-sub
+          meta-id
+          (fn [[_ & args]]
+            (re-frame/subscribe (into [page-id] args)))
+          (fn [page]
+            (if-let [{:keys [total limit skip]} page]
+              (assoc page :pages (js/Math.ceil (/ total limit))
+                    :active-page (inc (js/Math.ceil (/ skip limit))))
+              page)))
         (re-frame/reg-sub
           id
-          ;; FIXME cannot pass params in this style
-          :<- [page-id]
+          (fn [[_ & args]]
+            (re-frame/subscribe (into [page-id] args)))
           (fn [page]
-            (:data page))))
+            (:data page default))))
       (reg-sub-remote id {:path path
-                          :query query
+                          :query query-fn
                           :cleanup cleanup
                           :default default}))))
 
