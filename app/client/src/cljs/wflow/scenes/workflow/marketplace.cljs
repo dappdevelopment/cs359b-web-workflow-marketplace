@@ -4,6 +4,7 @@
             [soda-ash.core :as sa]
             [clojure.pprint :refer [pprint]]
             [wflow.data.workflows :as data.workflows]
+            [wflow.data.user :as user]
             [wflow.components.layout :as layout]
             [wflow.router :as router]
             [wflow.services.workflow :as workflow]
@@ -47,6 +48,38 @@
         ]))])
 
 
+(defn filters [{:keys [handle-item-click
+                       active-item]}
+               & children]
+  (let [user @(re-frame/subscribe [::user/user])]
+    [sa/Menu
+     {:pointing true}
+     [sa/MenuItem
+      {:name "all",
+       :active true,
+       :on-click handle-item-click}]
+     [sa/MenuItem
+      {:name "trending",
+       :active (= active-item "messages"),
+       :on-click handle-item-click}]
+     [sa/MenuItem
+      {:name "top rated",
+       :active (= active-item "friends"),
+       :on-click handle-item-click}]
+     [sa/MenuItem
+      {:name "mine",
+       :active (= active-item "friends"),
+       :on-click handle-item-click}]
+     [sa/MenuMenu
+      {:position "right"}
+      #_[sa/MenuItem
+       [sa/Input {:icon "search", :placeholder "Search..."}]]
+      [sa/MenuItem
+       [sa/ButtonGroup
+        {:color "teal"}
+        ;; TODO build login
+        [sa/Button {} "Allan Jiang"]]]]]))
+
 
 
 (defn home-panel []
@@ -61,6 +94,7 @@
       [sa/Grid {:padded true}
        [sa/GridRow
         [sa/GridColumn
+         [filters {:handle-item-click #(js/alert "TODO") :active-item active-item}]
          [workflows workflow-data]]]]]]))
 
 

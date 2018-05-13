@@ -6,7 +6,6 @@
             [wflow.scenes.settings]
             [wflow.scenes.workflow.create]
             [wflow.scenes.workflow.marketplace]
-            [wflow.scenes.workflow.mine]
             [wflow.scenes.debug]
 
             [wflow.services.toast :as toast]

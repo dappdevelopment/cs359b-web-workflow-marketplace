@@ -23,7 +23,6 @@
                   {""    :home
                    "/"   :home
                    "/marketplace" :marketplace
-                   "/workflow/mine" :workflow/mine
                    "/workflow/create" :workflow/create
                    "/settings" :settings
                    "/debug" :debug})])
