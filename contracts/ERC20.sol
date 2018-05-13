@@ -1,18 +1,19 @@
 pragma solidity ^0.4.21;
+
+/**
+ * @title ERC20 interface
+ * @dev see https://github.com/ethereum/EIPs/issues/20
+ */
 contract ERC20 {
+    function totalSupply() public view returns (uint256);
 
-  // Events
-  event Transfer(address indexed from, address indexed to, uint value);
-  event Approval( address indexed owner, address indexed spender, uint value);
+    function balanceOf(address _who) public view returns (uint256);
+    function transfer(address _to, uint256 _value) public returns (bool);
 
-  // Stateless functions
-  function totalSupply() constant returns (uint supply);
-  function balanceOf( address who ) constant returns (uint value);
-  function allowance(address owner, address spender) constant returns (uint value);
+    function allowance(address _owner, address _spender) public view returns (uint256);
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool);
+    function approve(address _spender, uint256 _value) public returns (bool);
 
-  // Stateful functions
-  function transfer( address to, uint value) returns (bool ok);
-  function transferFrom( address from, address to, uint value) returns (bool ok);
-  function approve(address spender, uint value) returns (bool ok);
-
+    event Transfer(address indexed _from, address indexed _to, uint256 _value);
+    event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 }
