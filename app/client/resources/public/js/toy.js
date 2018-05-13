@@ -8,26 +8,26 @@ function app() {
     //    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
     //}
     console.log("Using web3 version: " + Web3.version);
-  
+
     var contract;
     var userAccount;
-  
+
     var contractDataPromise = $.getJSON('WorkflowMarket.json');
     var networkIdPromise = web3.eth.net.getId(); // resolves on the current network id
     var accountsPromise = web3.eth.getAccounts(); // resolves on an array of accounts
-  
+
     Promise.all([contractDataPromise, networkIdPromise, accountsPromise])
 	    .then(function initApp(results) {
 	    	var contractData = results[0];
 	        var networkId = results[1];
 	        var accounts = results[2];
 	        userAccount = accounts[0];
-	  
+
 	        // Make sure the contract is deployed on the network to which our provider is connected
 	        if (!(networkId in contractData.networks)) {
 	        	throw new Error("Contract not found in selected Ethereum network on MetaMask.")
 	        }
-	  
+
 	        var contractAddress = contractData.networks[networkId].address;
 	        contract = new web3.eth.Contract(contractData.abi, contractAddress);
 	    })
@@ -60,7 +60,7 @@ function app() {
 		    transfer(toAddress, amount);
 		});
 
-		function mint(amount) { 
+		function mint(amount) {
 		console.log(amount)
 		if (!amount) return console.log("Fill in Amount field");
 
@@ -78,7 +78,7 @@ function app() {
 		    mint(amount);
 		});
 
-		function thumbsup(to) { 
+		function thumbsup(to) {
 		console.log(to)
 		if (!to) return console.log("Fill in Address field");
 

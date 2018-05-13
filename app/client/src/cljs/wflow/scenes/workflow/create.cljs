@@ -22,7 +22,8 @@
 (re-frame/reg-event-fx
   ::create-workflow
   (fn [{:keys [db]} [_ data]]
-    {:ajax {:request ["POST" "/workflows" {:data data}]
+    {:ajax {:request ["POST" "/workflows" {:data data
+                                           :authorization (get-in db [:session :accessToken])}]
             :success [:toast "success" "workflow created!"]
             :fail [:toast "error" "failed to save workflow"]}}))
 
@@ -36,24 +37,28 @@
 
 
 (defn workflows []
-  [sa/Grid {:centered true :columns 3}
+  [sa/Grid {:centered true
+            :vertical-align "middle"}
    [sa/GridRow
-    [sa/GridColumn
-     [sa/Form
-      {:id "create-workflow"
-       :on-submit create-workflow}
-      [sa/FormField
-       [:label "Workflow name"]
-       [:input {:placeholder "Workflow name"
-                :name "name"}]]
-      [sa/FormField
-       [:label "Unique Identifier"]
-       [:input {:placeholder "ID"
-                :name "slug"}]]
-      [:span "TODO TAGS"]
-      [sa/FormField
-       [sa/Checkbox {:label "I agree to the Terms and Conditions"}]]
-      [sa/Button {:type "submit"} "Submit"]]]]])
+    [sa/GridColumn {:style {:max-width 550
+                            :top 25}}
+     [sa/Segment {:raised true}
+      [sa/Header {:as "h3"} "Create Workflow"]
+      [sa/Form
+       {:id "create-workflow"
+        :on-submit create-workflow}
+       [sa/FormField
+        [:label "Workflow name"]
+        [:input {:placeholder "Workflow name"
+                 :name "name"}]]
+       [sa/FormField
+        [:label "Unique Identifier"]
+        [:input {:placeholder "ID"
+                 :name "slug"}]]
+       [:span "TODO TAGS"]
+       [sa/FormField
+        [sa/Checkbox {:label "I agree to the Terms and Conditions"}]]
+       [sa/Button {:type "submit"} "Submit"]]]]]])
 
 
 
