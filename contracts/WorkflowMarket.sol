@@ -36,13 +36,13 @@ contract WorkflowMarket {
         return true;
     }
 
-    function thumbsup(address _to) public returns (bool success) { 
+    function thumbsup(address _to) public returns (bool success) {
         thumbsups[_to] += 1;
         emit RatingChanged(_to, thumbsups[_to]);
         return true;
     }
 
-    function thumbsdown(address _to) public returns (bool success) { 
+    function thumbsdown(address _to) public returns (bool success) {
         thumbsups[_to] -= 1;
         emit RatingChanged(_to, thumbsups[_to]);
         return true;

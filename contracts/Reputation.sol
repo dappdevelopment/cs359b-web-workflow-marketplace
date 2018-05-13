@@ -7,12 +7,12 @@ contract Reputation {
         uint256 numSuccess;
         Rating[] workflowRatings;
     }
-    
+
     struct Rating {
         address from;
         uint256 ratingNumber;
     }
-    
+
     struct Pot {
         uint256 workflow;
         uint256 potSize;
@@ -52,7 +52,7 @@ contract Reputation {
 
         return true;
     }
-    
+
     function rateWorkflow(address _to, uint256 _workflowID, uint256 _value) public returns (bool success) {
          // the message sender cannot rate itself
         require(msg.sender != _to);
@@ -98,7 +98,7 @@ contract Reputation {
         potAccounts[_potOwner][_potID].betFor += _betAgainst;
         potAccounts[_potOwner][_potID].bettors.push(msg.sender);
 
-        emit BetPlaced(_potOwner, _betFor, _betAgainst); 
+        emit BetPlaced(_potOwner, _betFor, _betAgainst);
         return true;
     }
 
