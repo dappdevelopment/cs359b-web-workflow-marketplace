@@ -1,9 +1,9 @@
 pragma solidity ^0.4.23;
 
 import "./WorkflowToken.sol";
-//import "./Workflows.sol";
+import "./Workflows.sol";
 
-contract WorkflowMarket is WorkflowToken {
+contract WorkflowMarket is WorkflowToken, Workflows {
     address creator;
     event RatingChanged(address indexed _address, uint256 _thumbsup);
 

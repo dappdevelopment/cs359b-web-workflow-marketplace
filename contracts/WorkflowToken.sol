@@ -67,7 +67,7 @@ contract WorkflowToken is ERC20 {
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
         // Check if the message sender can spend _value from the _from account
         require(
-            allowed[_from][msg.sender] >= _value && 
+            allowed[_from][msg.sender] >= _value &&
             balances[_from] >= _value && 
             _value > 0
         );
