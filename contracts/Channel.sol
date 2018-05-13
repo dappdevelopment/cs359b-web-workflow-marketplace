@@ -42,14 +42,14 @@ contract TokenChannels {
    * address to       Address of recipient
    * uint amount      Number of token quanta to send
    */
-  function OpenChannel(address token, address to, uint amount, uint challenge) {
+  function OpenChannel(address token, address to, uint amount, uint challenge) public {
     // Sanity checks
-    if (amount == 0) { throw; }
-    if (to == msg.sender) { throw; }
-    if (active_ids[msg.sender][to] != bytes32(0)) { throw; }
+    require(amount != 0);
+    require(to != msg.sender);
+    require(active_ids[msg.sender][to] == bytes32(0));
 
     // Create a channel
-    bytes32 id = sha3(msg.sender, to, now);
+    bytes32 id = keccak256(msg.sender, to, now);
 
     // Initialize the channel
     Channel memory _channel;
@@ -61,7 +61,7 @@ contract TokenChannels {
 
     // Make the deposit
     ERC20 t = ERC20(token);
-    if (!t.transferFrom(msg.sender, address(this), amount)) { throw; }
+    require(t.transferFrom(msg.sender, address(this), amount));
 
     channels[id] = _channel;
 
@@ -79,37 +79,37 @@ contract TokenChannels {
    * uint     value     Amount of wei sent
    * uint     nonce     Number to be hashed with the value to form the message
    */
-  function CloseChannel(bytes32[4] h, uint8 v, uint256 value, uint256 nonce) {
+  function CloseChannel(bytes32[4] h, uint8 v, uint256 value, uint256 nonce) public {
     // h[0]    Channel id
     // h[1]    Hash of (id, value)
     // h[2]    r of signature
     // h[3]    s of signature
 
     // Grab the channel in question
-    if (channels[h[0]].deposit == 0) { throw; }
+    require(channels[h[0]].deposit != 0);
     Channel memory _channel;
     _channel = channels[h[0]];
 
     // Only the recipient can close a channel
-    if (msg.sender != _channel.recipient) { throw; }
+    require(msg.sender == _channel.recipient);
 
     address signer = ecrecover(h[1], v, h[2], h[3]);
-    if (signer != _channel.sender) { throw; }
+    require(signer == _channel.sender);
 
     // Make sure the hash provided is of the channel id and the amount sent
-    bytes32 proof = sha3(h[0], value, nonce);
+    bytes32 proof = keccak256(h[0], value, nonce);
 
     // Ensure the proof matches, send the value, send the remainder, and delete the channel
-    if (proof != h[1]) { throw; }
-    else if (value > _channel.deposit) { throw; }
+    require(proof == h[1]);
+    require(value <= _channel.deposit);
 
     if (_channel.challenge == 0) {
       // If there's no challenge period, close out the channel immediately.
 
       // Pay recipient and refund sender the remainder
       ERC20 t = ERC20(channels[h[0]].token);
-      if (!t.transfer(channels[h[0]].recipient, channels[h[0]].value)) { throw; }
-      else if (!t.transfer(channels[h[0]].sender, channels[h[0]].deposit-channels[h[0]].value)) { throw; }
+      require(t.transfer(channels[h[0]].recipient, channels[h[0]].value));
+      require(t.transfer(channels[h[0]].sender, channels[h[0]].deposit-channels[h[0]].value));
 
       // Delete the channel
       delete active_ids[channels[h[0]].sender][channels[h[0]].recipient];
@@ -134,34 +134,34 @@ contract TokenChannels {
    * uint     value     Amount of wei sent
    * uint     nonce     Number to be hashed with the value to form the message
    */
-  function Challenge(bytes32[4] h, uint8 v, uint256 value, uint256 nonce) {
+  function Challenge(bytes32[4] h, uint8 v, uint256 value, uint256 nonce) public {
     // Grab the channel in question
-    if (channels[h[0]].deposit == 0) { throw; }
+    require(channels[h[0]].deposit != 0);
     Channel memory _channel;
     _channel = channels[h[0]];
 
     // Make sure we're still in the challenge period
-    if (_channel.closeTime + _channel.challenge <= now) { throw; }
+    require(_channel.closeTime + _channel.challenge > now);
 
     // Make sure the nonce is higher
-    if (_channel.nonce >= nonce) { throw; }
+    require(_channel.nonce < nonce);
 
-    if (msg.sender != _channel.sender && msg.sender != _channel.recipient) { throw; }
+    require(msg.sender == _channel.sender || msg.sender == _channel.recipient);
 
     address signer = ecrecover(h[1], v, h[2], h[3]);
-    if (signer != _channel.sender) { throw; }
+    require(signer == _channel.sender);
 
     // Make sure the hash provided is of the channel id and the amount sent
-    bytes32 proof = sha3(h[0], value, nonce);
+    bytes32 proof = keccak256(h[0], value, nonce);
 
     // Ensure the proof matches, send the value, send the remainder, and delete the channel
-    if (proof != h[1]) { throw; }
-    else if (value > _channel.deposit) { throw; }
+    require(proof == h[1]);
+    require(value <= _channel.deposit);
 
     // Pay recipient and refund sender the remainder
     ERC20 t = ERC20(_channel.token);
-    if (!t.transfer(_channel.recipient, value)) { throw; }
-    else if (!t.transfer(_channel.sender, _channel.deposit-value)) { throw; }
+    require(t.transfer(_channel.recipient, value));
+    require(t.transfer(_channel.sender, _channel.deposit-value));
 
     // Copy data to the state
     _channel.value = value;
@@ -176,17 +176,17 @@ contract TokenChannels {
    *
    * bytes32  id    Channel id
    */
-  function Finalize(bytes32 id) {
+  function Finalize(bytes32 id) public {
     // Grab the channel in question
-    if (channels[id].deposit == 0) { throw; }
+    require(channels[id].deposit != 0);
 
     // Make sure we're past the challenge period
-    if (channels[id].closeTime + channels[id].challenge > now) { throw; }
+    require(channels[id].closeTime + channels[id].challenge <= now);
 
     // Pay recipient and refund sender the remainder
     ERC20 t = ERC20(channels[id].token);
-    if (!t.transfer(channels[id].recipient, channels[id].value)) { throw; }
-    else if (!t.transfer(channels[id].sender, channels[id].deposit-channels[id].value)) { throw; }
+    require(t.transfer(channels[id].recipient, channels[id].value));
+    require(t.transfer(channels[id].sender, channels[id].deposit-channels[id].value));
 
     // Delete the channel
     delete active_ids[channels[id].sender][channels[id].recipient];
@@ -220,7 +220,7 @@ contract TokenChannels {
     if (signer != _channel.sender) { return false; }
 
     // Make sure the hash provided is of the channel id and the amount sent
-    bytes32 proof = sha3(h[0], value);
+    bytes32 proof = keccak256(h[0], value);
     // Ensure the proof matches, send the value, send the remainder, and delete the channel
     if (proof != h[1]) { return false; }
     else if (value > _channel.deposit) { return false; }
