@@ -22,6 +22,8 @@
 (defn balance []
   [:div
    [sa/Header {:as "h2"} "Your remaining funds"]
+   [:h3 "TODO: show your payment channels, with remaining funds for each"]
+   [:h3 "TODO: show your active workflows, with the balance in each"]
    [sa/Button {:color "blue"} "Load more cash"]])
 
 
