@@ -1,24 +1,24 @@
 {
   "contractName": "Channel",
   "abi": [],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058205d228454514bc0090410104738ec2565cb29010c43859887c97b396d96fc0a4b0029",
-  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058205d228454514bc0090410104738ec2565cb29010c43859887c97b396d96fc0a4b0029",
-  "sourceMap": "26:21:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:21:5;;;;;;;",
-  "deployedSourceMap": "26:21:5:-;;;;;",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820facc69b859cc580a281eddb6ddcccfcf4f3905e14bd16e370edaa2489388afea0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820facc69b859cc580a281eddb6ddcccfcf4f3905e14bd16e370edaa2489388afea0029",
+  "sourceMap": "26:21:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:21:4;;;;;;;",
+  "deployedSourceMap": "26:21:4:-;;;;;",
   "source": "pragma solidity ^0.4.21;\n\ncontract Channel {\n\n}\n",
-  "sourcePath": "/Users/allanjiang/Desktop/Stanford/2017-18/spring/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
+  "sourcePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
   "ast": {
-    "absolutePath": "/Users/allanjiang/Desktop/Stanford/2017-18/spring/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
+    "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
     "exportedSymbols": {
       "Channel": [
-        1178
+        334
       ]
     },
-    "id": 1179,
+    "id": 335,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1177,
+        "id": 333,
         "literals": [
           "solidity",
           "^",
@@ -26,7 +26,7 @@
           ".21"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:5"
+        "src": "0:24:4"
       },
       {
         "baseContracts": [],
@@ -34,31 +34,31 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1178,
+        "id": 334,
         "linearizedBaseContracts": [
-          1178
+          334
         ],
         "name": "Channel",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 1179,
-        "src": "26:21:5"
+        "scope": 335,
+        "src": "26:21:4"
       }
     ],
-    "src": "0:48:5"
+    "src": "0:48:4"
   },
   "legacyAST": {
-    "absolutePath": "/Users/allanjiang/Desktop/Stanford/2017-18/spring/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
+    "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/PaymentChannels.sol",
     "exportedSymbols": {
       "Channel": [
-        1178
+        334
       ]
     },
-    "id": 1179,
+    "id": 335,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1177,
+        "id": 333,
         "literals": [
           "solidity",
           "^",
@@ -66,7 +66,7 @@
           ".21"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:5"
+        "src": "0:24:4"
       },
       {
         "baseContracts": [],
@@ -74,18 +74,18 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1178,
+        "id": 334,
         "linearizedBaseContracts": [
-          1178
+          334
         ],
         "name": "Channel",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 1179,
-        "src": "26:21:5"
+        "scope": 335,
+        "src": "26:21:4"
       }
     ],
-    "src": "0:48:5"
+    "src": "0:48:4"
   },
   "compiler": {
     "name": "solc",
@@ -93,5 +93,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-13T03:20:23.763Z"
+  "updatedAt": "2018-05-13T04:07:50.816Z"
 }
