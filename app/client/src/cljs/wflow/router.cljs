@@ -26,6 +26,7 @@
                    "/signup" :signup
                    "/marketplace" :marketplace
                    "/workflow/create" :workflow/create
+                   "/balance" :balance
                    "/settings" :settings
                    "/debug" :debug})])
 

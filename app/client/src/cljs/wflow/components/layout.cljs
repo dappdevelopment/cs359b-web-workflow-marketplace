@@ -53,6 +53,11 @@
                  :on-click #(handle-item-click :workflow/create)}
     [sa/Icon {:name "plus" :style float-left}]
     "Create Workflow"]
+   [sa/MenuItem {:name "balance"
+                 :active (= @active-item :balance)
+                 :on-click #(handle-item-click :balance)}
+    [sa/Icon {:name "dollar" :style float-left}]
+    "My Balance"]
    [sa/MenuItem {:name "settings"
                  :active (= @active-item :settings)
                  :on-click #(handle-item-click :settings)}

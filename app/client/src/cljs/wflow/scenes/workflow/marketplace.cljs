@@ -2,7 +2,7 @@
   (:require [re-frame.core :as re-frame]
             [reagent.core :as r]
             [soda-ash.core :as sa]
-            [clojure.pprint :refer [pprint]]
+            [clojure.string :as str]
             [wflow.data.workflows :as data.workflows]
             [wflow.data.user :as user]
             [wflow.components.layout :as layout]
@@ -18,14 +18,31 @@
    :top 0
    :bottom 0})
 
+(def month-names
+  "A vector of abbreviations for the twelve months, in order."
+  ["Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec"])
 
+(defn month-name
+  "Returns the abbreviation for a month in the range [1..12]."
+  [month]
+  (get month-names (dec month)))
+
+(defn- parse-iso-date
+  "Returns a map with keys :year, :month, and :day from the given ISO 8601 date string."
+  [date]
+  (zipmap [:year :month :day] (map js/parseInt (str/split date #"-0?"))))
+
+(defn- format-date [date]
+  (let [{:keys [day month year]} (parse-iso-date date)]
+    (str (month-name month) " " day ", " year)))
 
 
 (defn workflows [items]
   [sa/ListSA
    {:divided true, :relaxed true}
    (for [{:as item :keys [_id name updatedAt]} items]
-     (let [desc updatedAt]
+     (let [desc updatedAt
+           price (str (rand-int 5) " WFT")]
        ^{:key _id}
        [sa/ListItem
 
@@ -35,17 +52,16 @@
         [sa/ListIcon
          {:style {:float "right"}
           :name "play", :vertical-align "middle"}]
+        [sa/ButtonGroup
+         {:style {:float "right"
+                  :margin-right 10}
+          :size "small"
+          :color "yellow"}
+         [sa/Button (str "Buy (" price ")")]]
 
-        [sa/ListIcon
-         {:name "like outline", :size "large", :vertical-align "middle"}]
-        [sa/ListContent
-         [sa/Header {:as "h4"} 93]]
-        [sa/ListIcon
-         {:name "dislike outline", :size "large", :vertical-align "middle"}]
         [sa/ListContent
          [sa/ListHeader {:as "a"} name]
-         [sa/ListDescription {:as "a"} desc]]
-        ]))])
+         [sa/ListDescription {:as "a"} (format-date desc)]]]))])
 
 
 (defn filters [{:keys [handle-item-click

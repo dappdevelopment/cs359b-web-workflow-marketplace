@@ -1,8 +1,10 @@
-(ns wflow.scenes.settings
+(ns wflow.scenes.balance
   (:require [re-frame.core :as re-frame]
             [reagent.core :as r]
             [soda-ash.core :as sa]
             [clojure.pprint :refer [pprint]]
+            [wflow.data.workflows :as data.workflows]
+            [wflow.data.user :as user]
             [wflow.components.layout :as layout]
             [wflow.router :as router]
             [wflow.services.workflow :as workflow]
@@ -17,12 +19,10 @@
    :bottom 0})
 
 
-
-
-(defn workflows []
-  [:h3 "TODO :)"])
-
-
+(defn balance []
+  [:div
+   [sa/Header {:as "h2"} "Your remaining funds"]
+   [sa/Button {:color "blue"} "Load more cash"]])
 
 
 (defn home-panel []
@@ -36,8 +36,8 @@
       [sa/Grid {:padded true}
        [sa/GridRow
         [sa/GridColumn
-         [workflows]]]]]]))
+         [balance]]]]]]))
 
 
-(defmethod router/panels :settings [] [home-panel])
+(defmethod router/panels :balance [] [home-panel])
 

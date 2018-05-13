@@ -6,6 +6,7 @@
             [wflow.scenes.user.signup]
             [wflow.scenes.settings]
             [wflow.scenes.home]
+            [wflow.scenes.balance]
             [wflow.scenes.workflow.create]
             [wflow.scenes.workflow.marketplace]
             [wflow.scenes.debug]
