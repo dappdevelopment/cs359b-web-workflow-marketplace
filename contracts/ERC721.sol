@@ -8,14 +8,14 @@ import "./ERC721Basic.sol";
  */
 contract ERC721 is ERC721Basic {
     uint256 public totalWorkflows;
-    
+
     // Array of owned workflows for a user
     mapping(address => uint256[]) public ownedWorkflows;
 
     // Number of workflows owned by each user
     mapping(address => uint256) workflowAmountOwned;
 
-    // 
+    //
     mapping(uint256 => uint256) workflowIndexInOwnerArray;
 
     // Mapping from workflow ID to owner
