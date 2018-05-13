@@ -36,7 +36,5 @@
       [workflows]]]))
 
 
-(defmethod router/panels :home [] (re-frame/dispatch [:navigate [:workflow/mine]]))
-
 (defmethod router/panels :settings [] [home-panel])
 

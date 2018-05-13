@@ -22,6 +22,8 @@
                   static-resources
                   {""    :home
                    "/"   :home
+                   "/login" :login
+                   "/signup" :signup
                    "/marketplace" :marketplace
                    "/workflow/create" :workflow/create
                    "/settings" :settings
@@ -30,7 +32,8 @@
 
 (def authorized-routes
   ;; :public or :token uath
-  {:home :public})
+  {:login :public
+   :signup :public})
 
 
 (defn- parse-url
@@ -128,7 +131,7 @@
   [(re-frame/inject-cofx :local-store)
    (re-frame/inject-cofx :memory-store)]
   (fn [{:keys [db local-store memory-store]} [_ route]]
-    (let [auth (get authorized-routes (:page route))
+    (let [auth (get authorized-routes (:page route) :token)
           token (get-in local-store [:session :accessToken])
           new-db (merge local-store db)
           nxt {:db new-db

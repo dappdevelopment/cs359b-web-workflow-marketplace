@@ -2,8 +2,10 @@
   (:require [reagent.core :as reagent]
             [re-frame.core :as re-frame]
 
-            [wflow.scenes.home]
+            [wflow.scenes.user.login]
+            [wflow.scenes.user.signup]
             [wflow.scenes.settings]
+            [wflow.scenes.home]
             [wflow.scenes.workflow.create]
             [wflow.scenes.workflow.marketplace]
             [wflow.scenes.debug]

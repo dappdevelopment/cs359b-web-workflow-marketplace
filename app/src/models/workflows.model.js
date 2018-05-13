@@ -4,7 +4,9 @@
 // for more of what you can do here.
 module.exports = function (app) {
   const mongooseClient = app.get('mongooseClient');
+  const Schema = mongooseClient.Schema;
   const workflows = new mongooseClient.Schema({
+    owner: { type: Schema.Types.ObjectId, required: true },
     slug: { type: String, required: true, unique: true },
     name: { type: String, required: true},
     numExe: { type: Number, required: true, default: 0},

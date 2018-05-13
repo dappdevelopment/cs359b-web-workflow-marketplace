@@ -22,7 +22,8 @@
 (re-frame/reg-event-fx
   ::create-workflow
   (fn [{:keys [db]} [_ data]]
-    {:ajax {:request ["POST" "/workflows" {:data data}]
+    {:ajax {:request ["POST" "/workflows" {:data data
+                                           :authorization (get-in db [:session :accessToken])}]
             :success [:toast "success" "workflow created!"]
             :fail [:toast "error" "failed to save workflow"]}}))
 

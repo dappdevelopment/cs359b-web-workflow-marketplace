@@ -6,5 +6,36 @@
     "default": 10,
     "max": 50
   },
-  "mongodb": "mongodb://localhost:27017/wflow_mkt"
+  "remotes": {
+    "automationServer": {
+      "baseUri": "http://localhost:1337",
+      "json": true
+    }
+  },
+  "mongodb": "mongodb://localhost:27017/wflow_mkt",
+  "authentication": {
+    "secret": "fbea5d43fde016c7b8481bc0d80540418202432e97405def603a497200fd4158bb0a076eeef21f785c53d4ca508a9c7c30d4ea8b2371a93a01b5ff3780cbb85e1e8f4eeb04c30b0f842552d796a97f8f0b8509ce874cf4c51002a168facd9e6dea4384e749f9b5b226dbbbf9b49facc0e2c11df94f1fb3ae4d3ce9015b94475ac05de8cf53b30668ffcf1ff0dab78b5db4113ba79870f5e9d6f3ffb4444702d285b0c66230ccdf8464724058f6098f06d3c880c887f0bea8a71d0c62db04c41d339b94df7a0cdead6ef70c9772db9c4e85e09481fc4a4bb8931c9c3927a6f488030e62ead394363c37e1814e5c183e5fced3d189cfd5e5b1c647c7ff7481c45d",
+    "strategies": [
+      "jwt",
+      "local"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "type": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "entity": "user",
+      "service": "users",
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
 }

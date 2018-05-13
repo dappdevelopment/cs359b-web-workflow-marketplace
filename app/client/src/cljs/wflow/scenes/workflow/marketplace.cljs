@@ -77,8 +77,7 @@
       [sa/MenuItem
        [sa/ButtonGroup
         {:color "teal"}
-        ;; TODO build login
-        [sa/Button {} "Allan Jiang"]]]]]))
+        [sa/Button (:name user)]]]]]))
 
 
 
@@ -97,8 +96,6 @@
          [filters {:handle-item-click #(js/alert "TODO") :active-item active-item}]
          [workflows workflow-data]]]]]]))
 
-
-(defmethod router/panels :home [] (re-frame/dispatch [:navigate [:workflow/mine]]))
 
 (defmethod router/panels :marketplace [] [home-panel])
 

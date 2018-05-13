@@ -1,3 +1,4 @@
+const { authenticate } = require('feathers-authentication').hooks;
 
 
 module.exports = {
@@ -5,10 +6,23 @@ module.exports = {
     all: [],
     find: [],
     get: [],
-    create: [],
-    update: [],
-    patch: [],
-    remove: []
+    create: [
+      authenticate('jwt'),
+      context => {
+        let { data, params } = context
+        data.owner = params.user._id
+        return context
+      }
+    ],
+    update: [
+      authenticate('jwt')
+    ],
+    patch: [
+      authenticate('jwt')
+    ],
+    remove: [
+      authenticate('jwt')
+    ]
   },
 
   after: {
