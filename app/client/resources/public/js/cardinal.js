@@ -14,7 +14,6 @@ function app() {
   // web3.eth.net.getId().then(j=>console.log('network id', j))
   // web3.eth.getAccounts().then(j=>console.log('accounts', j))
 
-
   Promise.all([contractDataPromise, networkIdPromise, accountsPromise])
     .then(function initApp(results) {
       var contractData = results[0];
