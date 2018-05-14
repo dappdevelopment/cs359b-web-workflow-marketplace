@@ -2,8 +2,9 @@ pragma solidity ^0.4.23;
 
 import "./WorkflowToken.sol";
 import "./Workflows.sol";
+import "./Reputation.sol";
 
-contract WorkflowMarket is WorkflowToken, Workflows {
+contract WorkflowMarket is Reputation {
     address creator;
     event RatingChanged(address indexed _address, uint256 _thumbsup);
 

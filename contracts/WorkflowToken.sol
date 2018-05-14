@@ -35,7 +35,9 @@ contract WorkflowToken is ERC20 {
     uint256 public _totalSupply = 2100000;
     uint8 public constant decimals = 18;
 
+    // Keep track of the amount of tokens each address has
     mapping(address => uint256) public balances;
+
     // Which address is allowed to make transfer from the account of another address,
     // and the amount allowed
     mapping(address => mapping(address => uint256)) allowed;

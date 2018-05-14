@@ -15,11 +15,14 @@ contract ERC721 is ERC721Basic {
     // Number of workflows owned by each user
     mapping(address => uint256) workflowAmountOwned;
 
-    // 
+    // Index of workflow in owner array
     mapping(uint256 => uint256) workflowIndexInOwnerArray;
 
     // Mapping from workflow ID to owner
     mapping(uint256 => address) public workflowOwner;
+
+    // Map workflow ids to boolean value to keep track of which workflow exists
+    mapping(uint256 => bool) public existingWorkflowIds;
 
     /**
      * Override ERC721.sol
@@ -39,6 +42,8 @@ contract ERC721 is ERC721Basic {
      * Override ERC721Basic.sol
      */
     function ownerOfWorkflow(uint256 _workflowId) public view returns (address) {
+        // Require that _workflowId exists
+        require(existingWorkflowIds[_workflowId] == true);
         return workflowOwner[_workflowId];
     }
 
