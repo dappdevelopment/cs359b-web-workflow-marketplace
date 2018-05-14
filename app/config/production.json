@@ -1,4 +1,3 @@
 {
-  "host": "workflow-app.feathersjs.com",
-  "port": "PORT"
+  "host": "web-workflow.ml"
 }

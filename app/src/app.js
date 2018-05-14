@@ -35,6 +35,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(favicon(path.join(app.get('public'), 'favicon.ico')));
 // Host the public folder
 app.use('/', feathers.static(app.get('public')));
+app.use('/contracts', feathers.static(app.get('contracts_dir')));
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
 

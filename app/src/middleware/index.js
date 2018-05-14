@@ -1,4 +1,4 @@
-const proxy_service = require('./proxy_service');
+// const proxy_service = require('./proxy_service');
 
 const signup = app => (req, res, next) => {
   app.service('users').create(req.body)

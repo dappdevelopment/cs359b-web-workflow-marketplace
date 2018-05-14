@@ -2,6 +2,7 @@
   "host": "localhost",
   "port": 3232,
   "public": "../client/resources/public/",
+  "contracts_dir": "../../build/contracts/",
   "paginate": {
     "default": 10,
     "max": 50
