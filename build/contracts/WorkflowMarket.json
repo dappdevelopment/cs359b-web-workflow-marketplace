@@ -54937,8 +54937,8 @@
   },
   "networks": {
     "4": {
-      "address": "0x44193c9c308118ce0b1758a814d57b1116558770",
-      "trantransactionHash": "0x9afcff87d4639d0ee75790c3fb80bbf88282e43bfa1a0ce5f6be0777946a5a2a0x9afcf"
+      "address": "0x85e733563213bb35fd184fcf3d3d78c57a92c938",
+      "transactionHash": "0x92dbbccd163dddc10aa634154fdad0f02f62c74b47fb8c27052b302127ce67a30x92dbb"
     }
   },
   "schemaVersion": "2.0.0",

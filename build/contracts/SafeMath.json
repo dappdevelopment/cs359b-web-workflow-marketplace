@@ -54629,8 +54629,8 @@
   },
   "networks": {
     "4": {
-      "address": "0x771bc259d4c856864032e416a804f4f95ec2fabe",
-      "transactionHash": "0x113f07b558df943e08d7aebae15177a201b78dd3d1ed2e21c4c7b63f270c2db00x113f0"
+      "address": "0x083f96d3c46c7e78ae9d8035d2ade2fcc248d478",
+      "transactionHash": "0xab6dac1da4b9d4e0eadf28648f39efcb8ef20bd05ec5b8b477b0385d2d2087f2"
     }
   },
   "schemaVersion": "2.0.0",

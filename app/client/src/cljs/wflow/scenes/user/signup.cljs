@@ -25,7 +25,7 @@
   (fn [{:keys [db]} [_ session]]
     (let [{:keys [query-params]} (router/parse-url (.substr js/location.hash 1))]
       {:db (assoc db :session session)
-       :dispatch-n [[:navigate :login]
+       :dispatch-n [[:navigate [:login]]
                     [:toast "clear"]]})))
 
 
