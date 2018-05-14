@@ -22,6 +22,7 @@ contract ERC721Basic /* is ERC165 */ {
     event WorkflowApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
 
     event WorkflowCreated(uint256 _tokenId, address _owner);
+    event WorkflowRated(uint256 _tokenId, uint256 _stars);
 
     /// @notice Count NFTs tracked by this contract
     /// @return A count of valid NFTs tracked by this contract, where each one of
