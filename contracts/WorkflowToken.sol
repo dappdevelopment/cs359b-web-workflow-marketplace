@@ -35,7 +35,9 @@ contract WorkflowToken is ERC20 {
     uint256 public _totalSupply = 2100000;
     uint8 public constant decimals = 18;
 
+    // Keep track of the amount of tokens each address has
     mapping(address => uint256) public balances;
+
     // Which address is allowed to make transfer from the account of another address,
     // and the amount allowed
     mapping(address => mapping(address => uint256)) allowed;
@@ -67,7 +69,7 @@ contract WorkflowToken is ERC20 {
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
         // Check if the message sender can spend _value from the _from account
         require(
-            allowed[_from][msg.sender] >= _value && 
+            allowed[_from][msg.sender] >= _value &&
             balances[_from] >= _value && 
             _value > 0
         );
