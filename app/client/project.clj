@@ -17,7 +17,9 @@
                  [re-frame "0.10.5"]
                  [bidi "2.1.3"]
                  [soda-ash "0.78.2"]
-                 [binaryage/oops "0.5.8"]]
+                 [binaryage/oops "0.5.8"]
+                 [cljs-web3 "0.19.0-0-11"]
+                 [district0x.re-frame/web3-fx "1.0.4"]]
 
   :plugins [[lein-figwheel "0.5.13"]
             [lein-cljsbuild "1.1.5" :exclusions [org.clojure/clojure]]]
