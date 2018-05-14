@@ -1,0 +1,1 @@
+{"version":3,"file":"\/Users\/allanjiang\/Developer\/dapps\/cs359b-web-workflow-marketplace\/app\/client\/resources\/public\/js\/compiled\/out\/wflow\/data\/user.js","sources":["user.cljs?rel=1526326059932"],"lineCount":12,"mappings":";AAAA;;;;;;AAMA,gCAAA,hCAACA,mHAEC,WAAKC;AAAL,AACE,qCAAA,mFAAA,2DAAA,5KAACC,2BAAOD","names":["re-frame.core\/reg-sub","db","cljs.core\/get-in"]}

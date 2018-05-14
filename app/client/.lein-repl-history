@@ -1,0 +1,7 @@
+(fig-start)
+(load-file "dev/user.clj")
+(fig-start)
+(fig-stop)
+(fig-start)
+(fig-stop)
+(fig-start)
