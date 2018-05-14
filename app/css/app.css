@@ -1,10 +1,12 @@
 body { background-color:#F0F0F0; padding: 2em; font-family: 'Raleway','Source Sans Pro', 'Arial'; }
-.container { width: 50%; margin: 0 auto; }
-label { Display:block; Margin-bottom:10px; }
-input { Padding:10px; width: 50%; margin-bottom: 1em; }
+.container { width: 75%; margin: 0 auto; }
+.button-container {display: flex}
+label { display:block; Margin-bottom:10px; }
+input { padding:10px; width: 50%; margin-bottom: 1em; }
 button { margin: 2em 0; padding: 1em 4em; Display:block; }
-button#button-examine { margin: 2em 0; padding: 1em 4em; Display:block; background-color: #4CAF50; color: white; font-size: 16px;}
 #display { padding:1em; height: 1em; background-color:#fff; margin: 1em 0; text-align: center; }
 #display-workflows { padding:1em; height: 1em; background-color:#fff; margin: 1em 0; text-align: center; }
-#workflow-details { padding:1em; height: 100px; background-color:#fff; margin: 1em 0; text-align: center; font-size:20px}
+#workflow-details { padding:1em; height: 70px; background-color:#fff; margin: 1em 0; text-align: center; font-size:20px}
+#display-pots { padding:1em; height: 1em; background-color:#fff; margin: 1em 0; text-align: center; }
+#pot-details { padding:1em; height: 70px; background-color:#fff; margin: 1em 0; text-align: center; font-size:20px}
 #loader { width: 100px; display: none; }

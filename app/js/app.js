@@ -39,6 +39,10 @@ function app() {
                 $("#display-workflows").text(workflows);
                 $("#loader").hide();
             });
+            contract.methods.getAllPotsOnMarket().call().then(function (pots) {
+                $("#display-pots").text(pots);
+                $("#loader").hide();
+            });
         }
          
      	function transfer(to, amount) {
@@ -114,6 +118,64 @@ function app() {
                 var review = $("#workflow-review").val();
                 rateWorkflow(workflowId, stars, review);
         });
+
+        function createPot(workflowId, potSize, starsStake) { 
+            if (!workflowId || !potSize || !starsStake) return console.log("Fill in Workflow ID, Pot Size, and Stake fields");
+    
+            $("#loader").show();
+    
+            contract.methods.createPot(workflowId, potSize, starsStake).send({from: userAccount})
+                .then(refreshBalance)
+                .catch(function (e) {
+                    $("#loader").hide();
+                });
+            }
+
+            $("#button-create-pot").click(function() {
+                var workflowId = $("#workflow-id").val();
+                var potSize = $("#pot-size").val();
+                var starsStake = $("#pot-stars").val();
+                createPot(workflowId, potSize, starsStake);
+        });
+
+        function seePotDetails(potId) { 
+            if (!potId) return console.log("Fill in Pot ID field");
+    
+            $("#loader").show();
+    
+            contract.methods.seePotDetails(potId).call().then(function (details) {
+                    $('#pot-details').text("Pot ID: " + details[0] + ", Workflow ID: " +  details[1] + ", Pot Size: " 
+                        + details[2] + " tokens, Sum of Bets For: " + details[3] + " tokens, Sum of Bets Against: " + details[4] 
+                        + " tokens, Status: " + details[5]);
+                    $("#loader").hide();
+                });
+            }
+
+            $("#button-examine-pot").click(function() {
+                var potId = $("#pot-id").val();
+                seePotDetails(potId);
+        });
+
+        function sendBet(potId, betFor, betAgainst) {
+            if (!potId || !betFor || !betAgainst) return console.log("Fill in Pot ID and Bet Amounts fields");
+
+            $("#loader").show();
+
+            contract.methods.sendBet(potId, betFor, betAgainst).send({from: userAccount})
+                .then(refreshBalance)
+                .catch(function (e) {
+                    $("#loader").hide();
+                });
+            }
+
+            $("#button-send-bet").click(function() {
+                var potId = $("#pot-id").val();
+                var betFor = $("#bet-for").val();
+                var betAgainst = $("#bet-against").val();
+                sendBet(potId, betFor, betAgainst);
+        });
+        
+        
 
 }
 $(document).ready(app);
