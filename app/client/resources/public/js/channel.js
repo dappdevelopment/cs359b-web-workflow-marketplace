@@ -30,10 +30,11 @@ function app() {
     .catch(console.error);
   function refreshBalance() { // Returns web3's PromiEvent
     // Calling the contract (try with/without declaring view)
-    contract.methods.balanceOf(userAccount).call().then(function (balance) {
-      $('#display').text(balance + " workflow token");
-      $("#loader").hide();
-    });
+    console.log('refresh balance');
+    // contract.methods.balanceOf(userAccount).call().then(function (balance) {
+    //   $('#display').text(balance + " workflow token");
+    //   $("#loader").hide();
+    // });
   }
   function transfer(to, amount) {
     console.log(to, amount)
