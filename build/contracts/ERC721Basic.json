@@ -145,14 +145,14 @@
     "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721Basic.sol",
     "exportedSymbols": {
       "ERC721Basic": [
-        424
+        292
       ]
     },
-    "id": 425,
+    "id": 293,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 375,
+        "id": 243,
         "literals": [
           "solidity",
           "^",
@@ -160,7 +160,7 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:3"
+        "src": "0:24:2"
       },
       {
         "baseContracts": [],
@@ -168,9 +168,9 @@
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard\n @dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md\n  Note: the ERC-165 identifier for this interface is 0x80ac58cd",
         "fullyImplemented": false,
-        "id": 424,
+        "id": 292,
         "linearizedBaseContracts": [
-          424
+          292
         ],
         "name": "ERC721Basic",
         "nodeType": "ContractDefinition",
@@ -178,21 +178,21 @@
           {
             "anonymous": false,
             "documentation": "@dev This emits when ownership of any NFT changes by any mechanism.\n  This event emits when NFTs are created (`from` == 0) and destroyed\n  (`to` == 0). Exception: during contract creation, any number of NFTs\n  may be created and assigned without emitting Transfer. At the time of\n  any transfer, the approved address for that NFT (if any) is reset to none.",
-            "id": 383,
+            "id": 251,
             "name": "WorkflowTransfer",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 382,
+              "id": 250,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 377,
+                  "id": 245,
                   "indexed": true,
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "673:21:3",
+                  "scope": 251,
+                  "src": "673:21:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -200,10 +200,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 376,
+                    "id": 244,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "673:7:3",
+                    "src": "673:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -214,12 +214,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 379,
+                  "id": 247,
                   "indexed": true,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "696:19:3",
+                  "scope": 251,
+                  "src": "696:19:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -227,10 +227,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 378,
+                    "id": 246,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "696:7:3",
+                    "src": "696:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -241,12 +241,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 381,
+                  "id": 249,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "717:16:3",
+                  "scope": 251,
+                  "src": "717:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -254,10 +254,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 380,
+                    "id": 248,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "717:7:3",
+                    "src": "717:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -267,28 +267,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "672:62:3"
+              "src": "672:62:2"
             },
-            "src": "650:85:3"
+            "src": "650:85:2"
           },
           {
             "anonymous": false,
             "documentation": "@dev This emits when the approved address for an NFT is changed or\n  reaffirmed. The zero address indicates there is no approved address.\n  When a Transfer event emits, this also indicates that the approved\n  address for that NFT (if any) is reset to none.",
-            "id": 391,
+            "id": 259,
             "name": "WorkflowApproval",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 390,
+              "id": 258,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 385,
+                  "id": 253,
                   "indexed": true,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1050:22:3",
+                  "scope": 259,
+                  "src": "1050:22:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -296,10 +296,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 384,
+                    "id": 252,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1050:7:3",
+                    "src": "1050:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -310,12 +310,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 387,
+                  "id": 255,
                   "indexed": true,
                   "name": "_approved",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1074:25:3",
+                  "scope": 259,
+                  "src": "1074:25:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -323,10 +323,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 386,
+                    "id": 254,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1074:7:3",
+                    "src": "1074:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -337,12 +337,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 389,
+                  "id": 257,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1101:16:3",
+                  "scope": 259,
+                  "src": "1101:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -350,10 +350,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 388,
+                    "id": 256,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1101:7:3",
+                    "src": "1101:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -363,28 +363,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1049:69:3"
+              "src": "1049:69:2"
             },
-            "src": "1027:92:3"
+            "src": "1027:92:2"
           },
           {
             "anonymous": false,
             "documentation": "@dev This emits when an operator is enabled or disabled for an owner.\n  The operator can manage all NFTs of the owner.",
-            "id": 399,
+            "id": 267,
             "name": "WorkflowApprovalForAll",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 398,
+              "id": 266,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 393,
+                  "id": 261,
                   "indexed": true,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1288:22:3",
+                  "scope": 267,
+                  "src": "1288:22:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -392,10 +392,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 392,
+                    "id": 260,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1288:7:3",
+                    "src": "1288:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -406,12 +406,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 395,
+                  "id": 263,
                   "indexed": true,
                   "name": "_operator",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1312:25:3",
+                  "scope": 267,
+                  "src": "1312:25:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -419,10 +419,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 394,
+                    "id": 262,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1312:7:3",
+                    "src": "1312:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -433,12 +433,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 397,
+                  "id": 265,
                   "indexed": false,
                   "name": "_approved",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1339:14:3",
+                  "scope": 267,
+                  "src": "1339:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -446,10 +446,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 396,
+                    "id": 264,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1339:4:3",
+                    "src": "1339:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -459,28 +459,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1287:67:3"
+              "src": "1287:67:2"
             },
-            "src": "1259:96:3"
+            "src": "1259:96:2"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 405,
+            "id": 273,
             "name": "WorkflowCreated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 404,
+              "id": 272,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 401,
+                  "id": 269,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 405,
-                  "src": "1383:16:3",
+                  "scope": 273,
+                  "src": "1383:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -488,10 +488,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 400,
+                    "id": 268,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1383:7:3",
+                    "src": "1383:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -502,12 +502,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 403,
+                  "id": 271,
                   "indexed": false,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 405,
-                  "src": "1401:14:3",
+                  "scope": 273,
+                  "src": "1401:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -515,10 +515,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 402,
+                    "id": 270,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1401:7:3",
+                    "src": "1401:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -528,28 +528,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1382:34:3"
+              "src": "1382:34:2"
             },
-            "src": "1361:56:3"
+            "src": "1361:56:2"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 411,
+            "id": 279,
             "name": "WorkflowRated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 410,
+              "id": 278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 407,
+                  "id": 275,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 411,
-                  "src": "1442:16:3",
+                  "scope": 279,
+                  "src": "1442:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -557,10 +557,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 406,
+                    "id": 274,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1442:7:3",
+                    "src": "1442:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -571,12 +571,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 409,
+                  "id": 277,
                   "indexed": false,
                   "name": "_stars",
                   "nodeType": "VariableDeclaration",
-                  "scope": 411,
-                  "src": "1460:14:3",
+                  "scope": 279,
+                  "src": "1460:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -584,10 +584,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 408,
+                    "id": 276,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1460:7:3",
+                    "src": "1460:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -597,14 +597,14 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1441:34:3"
+              "src": "1441:34:2"
             },
-            "src": "1422:54:3"
+            "src": "1422:54:2"
           },
           {
             "body": null,
             "documentation": "@notice Count NFTs tracked by this contract\n @return A count of valid NFTs tracked by this contract, where each one of\n  them has an assigned and queryable owner not equal to the zero address",
-            "id": 416,
+            "id": 284,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -612,23 +612,23 @@
             "name": "totalWorkflowSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 412,
+              "id": 280,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1724:2:3"
+              "src": "1724:2:2"
             },
             "payable": false,
             "returnParameters": {
-              "id": 415,
+              "id": 283,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 414,
+                  "id": 282,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 416,
-                  "src": "1748:7:3",
+                  "scope": 284,
+                  "src": "1748:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -636,10 +636,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 413,
+                    "id": 281,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1748:7:3",
+                    "src": "1748:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -649,10 +649,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1747:9:3"
+              "src": "1747:9:2"
             },
-            "scope": 424,
-            "src": "1696:61:3",
+            "scope": 292,
+            "src": "1696:61:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -660,7 +660,7 @@
           {
             "body": null,
             "documentation": "@notice Count all NFTs assigned to an owner\n @dev NFTs assigned to the zero address are considered invalid, and this\n  function throws for queries about the zero address.\n @param _owner An address for whom to query the balance\n @return The number of NFTs owned by `_owner`, possibly zero",
-            "id": 423,
+            "id": 291,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -668,16 +668,16 @@
             "name": "workflowBalanceOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 419,
+              "id": 287,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 286,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
-                  "src": "2114:14:3",
+                  "scope": 291,
+                  "src": "2114:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -685,10 +685,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 285,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2114:7:3",
+                    "src": "2114:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -698,20 +698,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2113:16:3"
+              "src": "2113:16:2"
             },
             "payable": false,
             "returnParameters": {
-              "id": 422,
+              "id": 290,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 421,
+                  "id": 289,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
-                  "src": "2151:7:3",
+                  "scope": 291,
+                  "src": "2151:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -719,10 +719,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 420,
+                    "id": 288,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2151:7:3",
+                    "src": "2151:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -732,33 +732,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2150:9:3"
+              "src": "2150:9:2"
             },
-            "scope": 424,
-            "src": "2087:73:3",
+            "scope": 292,
+            "src": "2087:73:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 425,
-        "src": "214:3565:3"
+        "scope": 293,
+        "src": "214:3565:2"
       }
     ],
-    "src": "0:3779:3"
+    "src": "0:3779:2"
   },
   "legacyAST": {
     "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721Basic.sol",
     "exportedSymbols": {
       "ERC721Basic": [
-        424
+        292
       ]
     },
-    "id": 425,
+    "id": 293,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 375,
+        "id": 243,
         "literals": [
           "solidity",
           "^",
@@ -766,7 +766,7 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:3"
+        "src": "0:24:2"
       },
       {
         "baseContracts": [],
@@ -774,9 +774,9 @@
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard\n @dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md\n  Note: the ERC-165 identifier for this interface is 0x80ac58cd",
         "fullyImplemented": false,
-        "id": 424,
+        "id": 292,
         "linearizedBaseContracts": [
-          424
+          292
         ],
         "name": "ERC721Basic",
         "nodeType": "ContractDefinition",
@@ -784,21 +784,21 @@
           {
             "anonymous": false,
             "documentation": "@dev This emits when ownership of any NFT changes by any mechanism.\n  This event emits when NFTs are created (`from` == 0) and destroyed\n  (`to` == 0). Exception: during contract creation, any number of NFTs\n  may be created and assigned without emitting Transfer. At the time of\n  any transfer, the approved address for that NFT (if any) is reset to none.",
-            "id": 383,
+            "id": 251,
             "name": "WorkflowTransfer",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 382,
+              "id": 250,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 377,
+                  "id": 245,
                   "indexed": true,
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "673:21:3",
+                  "scope": 251,
+                  "src": "673:21:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -806,10 +806,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 376,
+                    "id": 244,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "673:7:3",
+                    "src": "673:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -820,12 +820,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 379,
+                  "id": 247,
                   "indexed": true,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "696:19:3",
+                  "scope": 251,
+                  "src": "696:19:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -833,10 +833,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 378,
+                    "id": 246,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "696:7:3",
+                    "src": "696:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -847,12 +847,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 381,
+                  "id": 249,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "717:16:3",
+                  "scope": 251,
+                  "src": "717:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -860,10 +860,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 380,
+                    "id": 248,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "717:7:3",
+                    "src": "717:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -873,28 +873,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "672:62:3"
+              "src": "672:62:2"
             },
-            "src": "650:85:3"
+            "src": "650:85:2"
           },
           {
             "anonymous": false,
             "documentation": "@dev This emits when the approved address for an NFT is changed or\n  reaffirmed. The zero address indicates there is no approved address.\n  When a Transfer event emits, this also indicates that the approved\n  address for that NFT (if any) is reset to none.",
-            "id": 391,
+            "id": 259,
             "name": "WorkflowApproval",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 390,
+              "id": 258,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 385,
+                  "id": 253,
                   "indexed": true,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1050:22:3",
+                  "scope": 259,
+                  "src": "1050:22:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -902,10 +902,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 384,
+                    "id": 252,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1050:7:3",
+                    "src": "1050:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -916,12 +916,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 387,
+                  "id": 255,
                   "indexed": true,
                   "name": "_approved",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1074:25:3",
+                  "scope": 259,
+                  "src": "1074:25:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -929,10 +929,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 386,
+                    "id": 254,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1074:7:3",
+                    "src": "1074:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -943,12 +943,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 389,
+                  "id": 257,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 391,
-                  "src": "1101:16:3",
+                  "scope": 259,
+                  "src": "1101:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -956,10 +956,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 388,
+                    "id": 256,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1101:7:3",
+                    "src": "1101:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -969,28 +969,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1049:69:3"
+              "src": "1049:69:2"
             },
-            "src": "1027:92:3"
+            "src": "1027:92:2"
           },
           {
             "anonymous": false,
             "documentation": "@dev This emits when an operator is enabled or disabled for an owner.\n  The operator can manage all NFTs of the owner.",
-            "id": 399,
+            "id": 267,
             "name": "WorkflowApprovalForAll",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 398,
+              "id": 266,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 393,
+                  "id": 261,
                   "indexed": true,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1288:22:3",
+                  "scope": 267,
+                  "src": "1288:22:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -998,10 +998,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 392,
+                    "id": 260,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1288:7:3",
+                    "src": "1288:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1012,12 +1012,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 395,
+                  "id": 263,
                   "indexed": true,
                   "name": "_operator",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1312:25:3",
+                  "scope": 267,
+                  "src": "1312:25:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1025,10 +1025,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 394,
+                    "id": 262,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1312:7:3",
+                    "src": "1312:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1039,12 +1039,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 397,
+                  "id": 265,
                   "indexed": false,
                   "name": "_approved",
                   "nodeType": "VariableDeclaration",
-                  "scope": 399,
-                  "src": "1339:14:3",
+                  "scope": 267,
+                  "src": "1339:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1052,10 +1052,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 396,
+                    "id": 264,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1339:4:3",
+                    "src": "1339:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1065,28 +1065,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1287:67:3"
+              "src": "1287:67:2"
             },
-            "src": "1259:96:3"
+            "src": "1259:96:2"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 405,
+            "id": 273,
             "name": "WorkflowCreated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 404,
+              "id": 272,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 401,
+                  "id": 269,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 405,
-                  "src": "1383:16:3",
+                  "scope": 273,
+                  "src": "1383:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1094,10 +1094,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 400,
+                    "id": 268,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1383:7:3",
+                    "src": "1383:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1108,12 +1108,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 403,
+                  "id": 271,
                   "indexed": false,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 405,
-                  "src": "1401:14:3",
+                  "scope": 273,
+                  "src": "1401:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1121,10 +1121,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 402,
+                    "id": 270,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1401:7:3",
+                    "src": "1401:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1134,28 +1134,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1382:34:3"
+              "src": "1382:34:2"
             },
-            "src": "1361:56:3"
+            "src": "1361:56:2"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 411,
+            "id": 279,
             "name": "WorkflowRated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 410,
+              "id": 278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 407,
+                  "id": 275,
                   "indexed": false,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 411,
-                  "src": "1442:16:3",
+                  "scope": 279,
+                  "src": "1442:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1163,10 +1163,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 406,
+                    "id": 274,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1442:7:3",
+                    "src": "1442:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1177,12 +1177,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 409,
+                  "id": 277,
                   "indexed": false,
                   "name": "_stars",
                   "nodeType": "VariableDeclaration",
-                  "scope": 411,
-                  "src": "1460:14:3",
+                  "scope": 279,
+                  "src": "1460:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1190,10 +1190,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 408,
+                    "id": 276,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1460:7:3",
+                    "src": "1460:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1203,14 +1203,14 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1441:34:3"
+              "src": "1441:34:2"
             },
-            "src": "1422:54:3"
+            "src": "1422:54:2"
           },
           {
             "body": null,
             "documentation": "@notice Count NFTs tracked by this contract\n @return A count of valid NFTs tracked by this contract, where each one of\n  them has an assigned and queryable owner not equal to the zero address",
-            "id": 416,
+            "id": 284,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1218,23 +1218,23 @@
             "name": "totalWorkflowSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 412,
+              "id": 280,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1724:2:3"
+              "src": "1724:2:2"
             },
             "payable": false,
             "returnParameters": {
-              "id": 415,
+              "id": 283,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 414,
+                  "id": 282,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 416,
-                  "src": "1748:7:3",
+                  "scope": 284,
+                  "src": "1748:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1242,10 +1242,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 413,
+                    "id": 281,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1748:7:3",
+                    "src": "1748:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1255,10 +1255,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1747:9:3"
+              "src": "1747:9:2"
             },
-            "scope": 424,
-            "src": "1696:61:3",
+            "scope": 292,
+            "src": "1696:61:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1266,7 +1266,7 @@
           {
             "body": null,
             "documentation": "@notice Count all NFTs assigned to an owner\n @dev NFTs assigned to the zero address are considered invalid, and this\n  function throws for queries about the zero address.\n @param _owner An address for whom to query the balance\n @return The number of NFTs owned by `_owner`, possibly zero",
-            "id": 423,
+            "id": 291,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1274,16 +1274,16 @@
             "name": "workflowBalanceOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 419,
+              "id": 287,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 286,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
-                  "src": "2114:14:3",
+                  "scope": 291,
+                  "src": "2114:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1291,10 +1291,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 285,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2114:7:3",
+                    "src": "2114:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1304,20 +1304,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2113:16:3"
+              "src": "2113:16:2"
             },
             "payable": false,
             "returnParameters": {
-              "id": 422,
+              "id": 290,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 421,
+                  "id": 289,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
-                  "src": "2151:7:3",
+                  "scope": 291,
+                  "src": "2151:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1325,10 +1325,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 420,
+                    "id": 288,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2151:7:3",
+                    "src": "2151:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1338,20 +1338,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2150:9:3"
+              "src": "2150:9:2"
             },
-            "scope": 424,
-            "src": "2087:73:3",
+            "scope": 292,
+            "src": "2087:73:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 425,
-        "src": "214:3565:3"
+        "scope": 293,
+        "src": "214:3565:2"
       }
     ],
-    "src": "0:3779:3"
+    "src": "0:3779:2"
   },
   "compiler": {
     "name": "solc",
@@ -1359,5 +1359,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-14T19:42:43.953Z"
+  "updatedAt": "2018-06-04T06:24:17.793Z"
 }

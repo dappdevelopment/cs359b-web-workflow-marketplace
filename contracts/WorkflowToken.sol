@@ -43,7 +43,7 @@ contract WorkflowToken is ERC20 {
     mapping(address => mapping(address => uint256)) allowed;
 
     event BalanceChanged(address indexed _address, uint256 _balance);
-    
+
     function totalSupply() public view returns (uint256) {
         return _totalSupply;
     }
@@ -70,7 +70,7 @@ contract WorkflowToken is ERC20 {
         // Check if the message sender can spend _value from the _from account
         require(
             allowed[_from][msg.sender] >= _value &&
-            balances[_from] >= _value && 
+            balances[_from] >= _value &&
             _value > 0
         );
         balances[_from] -= _value;

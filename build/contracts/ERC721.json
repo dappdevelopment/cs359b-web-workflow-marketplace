@@ -250,22 +250,22 @@
   ],
   "bytecode": "0x608060405234801561001057600080fd5b506105e3806100206000396000f30060806040526004361061008e576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806303ff3900146100935780635b58a534146100d85780636f17a94e1461012f578063972953b61461019c5780639f294873146101c7578063a823d0a914610234578063aac99e3b146102cc578063d673a6e61461032d575b600080fd5b34801561009f57600080fd5b506100be60048036038101908080359060200190929190505050610358565b604051808215151515815260200191505060405180910390f35b3480156100e457600080fd5b50610119600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610378565b6040518082815260200191505060405180910390f35b34801561013b57600080fd5b5061015a600480360381019080803590602001909291905050506103c1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101a857600080fd5b506101b16103f4565b6040518082815260200191505060405180910390f35b3480156101d357600080fd5b506101f2600480360381019080803590602001909291905050506103fa565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561024057600080fd5b50610275600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061046a565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156102b857808201518184015260208101905061029d565b505050509050019250505060405180910390f35b3480156102d857600080fd5b50610317600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061057e565b6040518082815260200191505060405180910390f35b34801561033957600080fd5b506103426105ae565b6040518082815260200191505060405180910390f35b60056020528060005260406000206000915054906101000a900460ff1681565b6000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b60046020528060005260406000206000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60005481565b6000600115156005600084815260200190815260200160002060009054906101000a900460ff16151514151561042f57600080fd5b6004600083815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b6060600060606000600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549250826040519080825280602002602001820160405280156104e35781602001602082028038833980820191505090505b509150600090505b8281101561057357600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208181548110151561053f57fe5b9060005260206000200154828281518110151561055857fe5b906020019060200201818152505080806001019150506104eb565b819350505050919050565b60016020528160005260406000208181548110151561059957fe5b90600052602060002001600091509150505481565b600080549050905600a165627a7a723058204321f0cbdbbccbec626e11623adb8f2de650086a90af0cdfb9e76edee714cc620029",
   "deployedBytecode": "0x60806040526004361061008e576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806303ff3900146100935780635b58a534146100d85780636f17a94e1461012f578063972953b61461019c5780639f294873146101c7578063a823d0a914610234578063aac99e3b146102cc578063d673a6e61461032d575b600080fd5b34801561009f57600080fd5b506100be60048036038101908080359060200190929190505050610358565b604051808215151515815260200191505060405180910390f35b3480156100e457600080fd5b50610119600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610378565b6040518082815260200191505060405180910390f35b34801561013b57600080fd5b5061015a600480360381019080803590602001909291905050506103c1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101a857600080fd5b506101b16103f4565b6040518082815260200191505060405180910390f35b3480156101d357600080fd5b506101f2600480360381019080803590602001909291905050506103fa565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561024057600080fd5b50610275600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061046a565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156102b857808201518184015260208101905061029d565b505050509050019250505060405180910390f35b3480156102d857600080fd5b50610317600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061057e565b6040518082815260200191505060405180910390f35b34801561033957600080fd5b506103426105ae565b6040518082815260200191505060405180910390f35b60056020528060005260406000206000915054906101000a900460ff1681565b6000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b60046020528060005260406000206000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60005481565b6000600115156005600084815260200190815260200160002060009054906101000a900460ff16151514151561042f57600080fd5b6004600083815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b6060600060606000600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549250826040519080825280602002602001820160405280156104e35781602001602082028038833980820191505090505b509150600090505b8281101561057357600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208181548110151561053f57fe5b9060005260206000200154828281518110151561055857fe5b906020019060200201818152505080806001019150506104eb565b819350505050919050565b60016020528160005260406000208181548110151561059957fe5b90600052602060002001600091509150505481565b600080549050905600a165627a7a723058204321f0cbdbbccbec626e11623adb8f2de650086a90af0cdfb9e76edee714cc620029",
-  "sourceMap": "213:2013:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;213:2013:2;;;;;;;",
-  "deployedSourceMap": "213:2013:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;767:51;;8:9:-1;5:2;;;30:1;27;20:12;5:2;767:51:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1021:124;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1021:124:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;632:48;;8:9:-1;5:2;;;30:1;27;20:12;5:2;632:48:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;250:29;;8:9:-1;5:2;;;30:1;27;20:12;5:2;250:29:2;;;;;;;;;;;;;;;;;;;;;;;1199:228;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1199:228:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1433:313;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1433:313:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1433:313:2;;;;;;;;;;;;;;;;;333:51;;8:9:-1;5:2;;;30:1;27;20:12;5:2;333:51:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;868:99;;8:9:-1;5:2;;;30:1;27;20:12;5:2;868:99:2;;;;;;;;;;;;;;;;;;;;;;;767:51;;;;;;;;;;;;;;;;;;;;;;:::o;1021:124::-;1085:7;1111:19;:27;1131:6;1111:27;;;;;;;;;;;;;;;;1104:34;;1021:124;;;:::o;632:48::-;;;;;;;;;;;;;;;;;;;;;;:::o;250:29::-;;;;:::o;1199:228::-;1266:7;1372:4;1336:40;;:19;:32;1356:11;1336:32;;;;;;;;;;;;;;;;;;;;;:40;;;1328:49;;;;;;;;1394:13;:26;1408:11;1394:26;;;;;;;;;;;;;;;;;;;;;1387:33;;1199:228;;;:::o;1433:313::-;1495:9;1516:12;1568:23;1628:6;1531:19;:27;1551:6;1531:27;;;;;;;;;;;;;;;;1516:42;;1608:4;1594:19;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;1594:19:2;;;;1568:45;;1637:1;1628:10;;1623:94;1644:4;1640:1;:8;1623:94;;;1681:14;:22;1696:6;1681:22;;;;;;;;;;;;;;;1704:1;1681:25;;;;;;;;;;;;;;;;;;1669:6;1676:1;1669:9;;;;;;;;;;;;;;;;;:37;;;;;1650:3;;;;;;;1623:94;;;1733:6;1726:13;;1433:313;;;;;;:::o;333:51::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;868:99::-;920:7;946:14;;939:21;;868:99;:::o",
+  "sourceMap": "213:2013:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;213:2013:1;;;;;;;",
+  "deployedSourceMap": "213:2013:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;767:51;;8:9:-1;5:2;;;30:1;27;20:12;5:2;767:51:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1021:124;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1021:124:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;632:48;;8:9:-1;5:2;;;30:1;27;20:12;5:2;632:48:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;250:29;;8:9:-1;5:2;;;30:1;27;20:12;5:2;250:29:1;;;;;;;;;;;;;;;;;;;;;;;1199:228;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1199:228:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1433:313;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1433:313:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1433:313:1;;;;;;;;;;;;;;;;;333:51;;8:9:-1;5:2;;;30:1;27;20:12;5:2;333:51:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;868:99;;8:9:-1;5:2;;;30:1;27;20:12;5:2;868:99:1;;;;;;;;;;;;;;;;;;;;;;;767:51;;;;;;;;;;;;;;;;;;;;;;:::o;1021:124::-;1085:7;1111:19;:27;1131:6;1111:27;;;;;;;;;;;;;;;;1104:34;;1021:124;;;:::o;632:48::-;;;;;;;;;;;;;;;;;;;;;;:::o;250:29::-;;;;:::o;1199:228::-;1266:7;1372:4;1336:40;;:19;:32;1356:11;1336:32;;;;;;;;;;;;;;;;;;;;;:40;;;1328:49;;;;;;;;1394:13;:26;1408:11;1394:26;;;;;;;;;;;;;;;;;;;;;1387:33;;1199:228;;;:::o;1433:313::-;1495:9;1516:12;1568:23;1628:6;1531:19;:27;1551:6;1531:27;;;;;;;;;;;;;;;;1516:42;;1608:4;1594:19;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;1594:19:1;;;;1568:45;;1637:1;1628:10;;1623:94;1644:4;1640:1;:8;1623:94;;;1681:14;:22;1696:6;1681:22;;;;;;;;;;;;;;;1704:1;1681:25;;;;;;;;;;;;;;;;;;1669:6;1676:1;1669:9;;;;;;;;;;;;;;;;;:37;;;;;1650:3;;;;;;;1623:94;;;1733:6;1726:13;;1433:313;;;;;;:::o;333:51::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;868:99::-;920:7;946:14;;939:21;;868:99;:::o",
   "source": "pragma solidity ^0.4.23;\n\nimport \"./ERC721Basic.sol\";\n\n/**\n * @title ERC-721 Non-Fungible Token Standard, full implementation interface\n * @dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md\n */\ncontract ERC721 is ERC721Basic {\n    uint256 public totalWorkflows;\n    \n    // Array of owned workflows for a user\n    mapping(address => uint256[]) public ownedWorkflows;\n\n    // Number of workflows owned by each user\n    mapping(address => uint256) workflowAmountOwned;\n\n    // Index of workflow in owner array\n    mapping(uint256 => uint256) workflowIndexInOwnerArray;\n\n    // Mapping from workflow ID to owner\n    mapping(uint256 => address) public workflowOwner;\n\n    // Map workflow ids to boolean value to keep track of which workflow exists\n    mapping(uint256 => bool) public existingWorkflowIds;\n\n    /**\n     * Override ERC721.sol\n     */\n    function totalWorkflowSupply() public view returns (uint256) {\n        return totalWorkflows;\n    }\n\n    /**\n     * Override ERC721Basic.sol\n     */\n    function workflowBalanceOf(address _owner) public view returns (uint256) {\n        return workflowAmountOwned[_owner];\n    }\n\n    /**\n     * Override ERC721Basic.sol\n     */\n    function ownerOfWorkflow(uint256 _workflowId) public view returns (address) {\n        // Require that _workflowId exists\n        require(existingWorkflowIds[_workflowId] == true);\n        return workflowOwner[_workflowId];\n    }\n\n    function getAllWorkflows(address _owner) public view returns (uint256[]) {\n        uint256 size = workflowAmountOwned[_owner];\n        uint256[] memory result = new uint256[](size);\n        for (uint i = 0; i < size; i++) {\n            result[i] = ownedWorkflows[_owner][i];\n        }\n        return result;\n    }\n\n    function _addTokenTo(address _owner, uint256 _workflowId) internal {\n        if (ownedWorkflows[_owner].length == workflowAmountOwned[_owner]) {\n            ownedWorkflows[_owner].push(_workflowId);\n        } else {\n            ownedWorkflows[_owner][workflowAmountOwned[_owner]] = _workflowId;\n        }\n        workflowOwner[_workflowId] = _owner;\n        workflowIndexInOwnerArray[_workflowId] = workflowAmountOwned[_owner];\n        workflowAmountOwned[_owner]++;\n    }\n}",
   "sourcePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721.sol",
   "ast": {
     "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721.sol",
     "exportedSymbols": {
       "ERC721": [
-        373
+        241
       ]
     },
-    "id": 374,
+    "id": 242,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 202,
+        "id": 70,
         "literals": [
           "solidity",
           "^",
@@ -273,16 +273,16 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:2"
+        "src": "0:24:1"
       },
       {
         "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721Basic.sol",
         "file": "./ERC721Basic.sol",
-        "id": 203,
+        "id": 71,
         "nodeType": "ImportDirective",
-        "scope": 374,
-        "sourceUnit": 425,
-        "src": "26:27:2",
+        "scope": 242,
+        "sourceUnit": 293,
+        "src": "26:27:1",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -292,42 +292,42 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 204,
+              "id": 72,
               "name": "ERC721Basic",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 424,
-              "src": "232:11:2",
+              "referencedDeclaration": 292,
+              "src": "232:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Basic_$424",
+                "typeIdentifier": "t_contract$_ERC721Basic_$292",
                 "typeString": "contract ERC721Basic"
               }
             },
-            "id": 205,
+            "id": 73,
             "nodeType": "InheritanceSpecifier",
-            "src": "232:11:2"
+            "src": "232:11:1"
           }
         ],
         "contractDependencies": [
-          424
+          292
         ],
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard, full implementation interface\n@dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
         "fullyImplemented": true,
-        "id": 373,
+        "id": 241,
         "linearizedBaseContracts": [
-          373,
-          424
+          241,
+          292
         ],
         "name": "ERC721",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 207,
+            "id": 75,
             "name": "totalWorkflows",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "250:29:2",
+            "scope": 241,
+            "src": "250:29:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -335,10 +335,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 206,
+              "id": 74,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "250:7:2",
+              "src": "250:7:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -349,11 +349,11 @@
           },
           {
             "constant": false,
-            "id": 212,
+            "id": 80,
             "name": "ownedWorkflows",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "333:51:2",
+            "scope": 241,
+            "src": "333:51:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -361,38 +361,38 @@
               "typeString": "mapping(address => uint256[])"
             },
             "typeName": {
-              "id": 211,
+              "id": 79,
               "keyType": {
-                "id": 208,
+                "id": 76,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "341:7:2",
+                "src": "341:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "333:29:2",
+              "src": "333:29:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                 "typeString": "mapping(address => uint256[])"
               },
               "valueType": {
                 "baseType": {
-                  "id": 209,
+                  "id": 77,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "352:7:2",
+                  "src": "352:7:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
                   }
                 },
-                "id": 210,
+                "id": 78,
                 "length": null,
                 "nodeType": "ArrayTypeName",
-                "src": "352:9:2",
+                "src": "352:9:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                   "typeString": "uint256[]"
@@ -404,11 +404,11 @@
           },
           {
             "constant": false,
-            "id": 216,
+            "id": 84,
             "name": "workflowAmountOwned",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "437:47:2",
+            "scope": 241,
+            "src": "437:47:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -416,28 +416,28 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 215,
+              "id": 83,
               "keyType": {
-                "id": 213,
+                "id": 81,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "445:7:2",
+                "src": "445:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "437:27:2",
+              "src": "437:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 214,
+                "id": 82,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "456:7:2",
+                "src": "456:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -449,11 +449,11 @@
           },
           {
             "constant": false,
-            "id": 220,
+            "id": 88,
             "name": "workflowIndexInOwnerArray",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "531:53:2",
+            "scope": 241,
+            "src": "531:53:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -461,28 +461,28 @@
               "typeString": "mapping(uint256 => uint256)"
             },
             "typeName": {
-              "id": 219,
+              "id": 87,
               "keyType": {
-                "id": 217,
+                "id": 85,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "539:7:2",
+                "src": "539:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "531:27:2",
+              "src": "531:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_uint256_$",
                 "typeString": "mapping(uint256 => uint256)"
               },
               "valueType": {
-                "id": 218,
+                "id": 86,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "550:7:2",
+                "src": "550:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -494,11 +494,11 @@
           },
           {
             "constant": false,
-            "id": 224,
+            "id": 92,
             "name": "workflowOwner",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "632:48:2",
+            "scope": 241,
+            "src": "632:48:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -506,28 +506,28 @@
               "typeString": "mapping(uint256 => address)"
             },
             "typeName": {
-              "id": 223,
+              "id": 91,
               "keyType": {
-                "id": 221,
+                "id": 89,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "640:7:2",
+                "src": "640:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "632:27:2",
+              "src": "632:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                 "typeString": "mapping(uint256 => address)"
               },
               "valueType": {
-                "id": 222,
+                "id": 90,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "651:7:2",
+                "src": "651:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -539,11 +539,11 @@
           },
           {
             "constant": false,
-            "id": 228,
+            "id": 96,
             "name": "existingWorkflowIds",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "767:51:2",
+            "scope": 241,
+            "src": "767:51:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -551,28 +551,28 @@
               "typeString": "mapping(uint256 => bool)"
             },
             "typeName": {
-              "id": 227,
+              "id": 95,
               "keyType": {
-                "id": 225,
+                "id": 93,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "775:7:2",
+                "src": "775:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "767:24:2",
+              "src": "767:24:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_bool_$",
                 "typeString": "mapping(uint256 => bool)"
               },
               "valueType": {
-                "id": 226,
+                "id": 94,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
-                "src": "786:4:2",
+                "src": "786:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bool",
                   "typeString": "bool"
@@ -584,33 +584,33 @@
           },
           {
             "body": {
-              "id": 235,
+              "id": 103,
               "nodeType": "Block",
-              "src": "929:38:2",
+              "src": "929:38:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 233,
+                    "id": 101,
                     "name": "totalWorkflows",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 207,
-                    "src": "946:14:2",
+                    "referencedDeclaration": 75,
+                    "src": "946:14:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 232,
-                  "id": 234,
+                  "functionReturnParameters": 100,
+                  "id": 102,
                   "nodeType": "Return",
-                  "src": "939:21:2"
+                  "src": "939:21:1"
                 }
               ]
             },
             "documentation": "Override ERC721.sol",
-            "id": 236,
+            "id": 104,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -618,23 +618,23 @@
             "name": "totalWorkflowSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 229,
+              "id": 97,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "896:2:2"
+              "src": "896:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 232,
+              "id": 100,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 231,
+                  "id": 99,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 236,
-                  "src": "920:7:2",
+                  "scope": 104,
+                  "src": "920:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -642,10 +642,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 230,
+                    "id": 98,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "920:7:2",
+                    "src": "920:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -655,45 +655,45 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "919:9:2"
+              "src": "919:9:1"
             },
-            "scope": 373,
-            "src": "868:99:2",
+            "scope": 241,
+            "src": "868:99:1",
             "stateMutability": "view",
-            "superFunction": 416,
+            "superFunction": 284,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 247,
+              "id": 115,
               "nodeType": "Block",
-              "src": "1094:51:2",
+              "src": "1094:51:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 243,
+                      "id": 111,
                       "name": "workflowAmountOwned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 216,
-                      "src": "1111:19:2",
+                      "referencedDeclaration": 84,
+                      "src": "1111:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 245,
+                    "id": 113,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 244,
+                      "id": 112,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 238,
-                      "src": "1131:6:2",
+                      "referencedDeclaration": 106,
+                      "src": "1131:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -704,21 +704,21 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1111:27:2",
+                    "src": "1111:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 242,
-                  "id": 246,
+                  "functionReturnParameters": 110,
+                  "id": 114,
                   "nodeType": "Return",
-                  "src": "1104:34:2"
+                  "src": "1104:34:1"
                 }
               ]
             },
             "documentation": "Override ERC721Basic.sol",
-            "id": 248,
+            "id": 116,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -726,16 +726,16 @@
             "name": "workflowBalanceOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 239,
+              "id": 107,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 238,
+                  "id": 106,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 248,
-                  "src": "1048:14:2",
+                  "scope": 116,
+                  "src": "1048:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -743,10 +743,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 237,
+                    "id": 105,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1048:7:2",
+                    "src": "1048:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -756,20 +756,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1047:16:2"
+              "src": "1047:16:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 242,
+              "id": 110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 241,
+                  "id": 109,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 248,
-                  "src": "1085:7:2",
+                  "scope": 116,
+                  "src": "1085:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -777,10 +777,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 240,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1085:7:2",
+                    "src": "1085:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -790,19 +790,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1084:9:2"
+              "src": "1084:9:1"
             },
-            "scope": 373,
-            "src": "1021:124:2",
+            "scope": 241,
+            "src": "1021:124:1",
             "stateMutability": "view",
-            "superFunction": 423,
+            "superFunction": 291,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 267,
+              "id": 135,
               "nodeType": "Block",
-              "src": "1275:152:2",
+              "src": "1275:152:1",
               "statements": [
                 {
                   "expression": {
@@ -814,7 +814,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 260,
+                        "id": 128,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -823,26 +823,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 256,
+                            "id": 124,
                             "name": "existingWorkflowIds",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 228,
-                            "src": "1336:19:2",
+                            "referencedDeclaration": 96,
+                            "src": "1336:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_uint256_$_t_bool_$",
                               "typeString": "mapping(uint256 => bool)"
                             }
                           },
-                          "id": 258,
+                          "id": 126,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 257,
+                            "id": 125,
                             "name": "_workflowId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 250,
-                            "src": "1356:11:2",
+                            "referencedDeclaration": 118,
+                            "src": "1356:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -853,7 +853,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1336:32:2",
+                          "src": "1336:32:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -864,14 +864,14 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 259,
+                          "id": 127,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1372:4:2",
+                          "src": "1372:4:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -879,7 +879,7 @@
                           },
                           "value": "true"
                         },
-                        "src": "1336:40:2",
+                        "src": "1336:40:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -893,21 +893,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 255,
+                      "id": 123,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2524,
-                        2525
+                        1633,
+                        1634
                       ],
-                      "referencedDeclaration": 2524,
-                      "src": "1328:7:2",
+                      "referencedDeclaration": 1633,
+                      "src": "1328:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 261,
+                    "id": 129,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -915,41 +915,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1328:49:2",
+                    "src": "1328:49:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 262,
+                  "id": 130,
                   "nodeType": "ExpressionStatement",
-                  "src": "1328:49:2"
+                  "src": "1328:49:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 263,
+                      "id": 131,
                       "name": "workflowOwner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 224,
-                      "src": "1394:13:2",
+                      "referencedDeclaration": 92,
+                      "src": "1394:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                         "typeString": "mapping(uint256 => address)"
                       }
                     },
-                    "id": 265,
+                    "id": 133,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 264,
+                      "id": 132,
                       "name": "_workflowId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 250,
-                      "src": "1408:11:2",
+                      "referencedDeclaration": 118,
+                      "src": "1408:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -960,21 +960,21 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1394:26:2",
+                    "src": "1394:26:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 254,
-                  "id": 266,
+                  "functionReturnParameters": 122,
+                  "id": 134,
                   "nodeType": "Return",
-                  "src": "1387:33:2"
+                  "src": "1387:33:1"
                 }
               ]
             },
             "documentation": "Override ERC721Basic.sol",
-            "id": 268,
+            "id": 136,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -982,16 +982,16 @@
             "name": "ownerOfWorkflow",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 251,
+              "id": 119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 250,
+                  "id": 118,
                   "name": "_workflowId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 268,
-                  "src": "1224:19:2",
+                  "scope": 136,
+                  "src": "1224:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -999,10 +999,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 249,
+                    "id": 117,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1224:7:2",
+                    "src": "1224:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1012,20 +1012,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1223:21:2"
+              "src": "1223:21:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 254,
+              "id": 122,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 253,
+                  "id": 121,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 268,
-                  "src": "1266:7:2",
+                  "scope": 136,
+                  "src": "1266:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1033,10 +1033,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 252,
+                    "id": 120,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1266:7:2",
+                    "src": "1266:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1046,32 +1046,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1265:9:2"
+              "src": "1265:9:1"
             },
-            "scope": 373,
-            "src": "1199:228:2",
+            "scope": 241,
+            "src": "1199:228:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 316,
+              "id": 184,
               "nodeType": "Block",
-              "src": "1506:240:2",
+              "src": "1506:240:1",
               "statements": [
                 {
                   "assignments": [
-                    277
+                    145
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 277,
+                      "id": 145,
                       "name": "size",
                       "nodeType": "VariableDeclaration",
-                      "scope": 317,
-                      "src": "1516:12:2",
+                      "scope": 185,
+                      "src": "1516:12:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1079,10 +1079,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 276,
+                        "id": 144,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1516:7:2",
+                        "src": "1516:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1092,31 +1092,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 281,
+                  "id": 149,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 278,
+                      "id": 146,
                       "name": "workflowAmountOwned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 216,
-                      "src": "1531:19:2",
+                      "referencedDeclaration": 84,
+                      "src": "1531:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 280,
+                    "id": 148,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 279,
+                      "id": 147,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 270,
-                      "src": "1551:6:2",
+                      "referencedDeclaration": 138,
+                      "src": "1551:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -1127,27 +1127,27 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1531:27:2",
+                    "src": "1531:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1516:42:2"
+                  "src": "1516:42:1"
                 },
                 {
                   "assignments": [
-                    285
+                    153
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 285,
+                      "id": 153,
                       "name": "result",
                       "nodeType": "VariableDeclaration",
-                      "scope": 317,
-                      "src": "1568:23:2",
+                      "scope": 185,
+                      "src": "1568:23:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -1156,19 +1156,19 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 283,
+                          "id": 151,
                           "name": "uint256",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1568:7:2",
+                          "src": "1568:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 284,
+                        "id": 152,
                         "length": null,
                         "nodeType": "ArrayTypeName",
-                        "src": "1568:9:2",
+                        "src": "1568:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                           "typeString": "uint256[]"
@@ -1178,18 +1178,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 291,
+                  "id": 159,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 289,
+                        "id": 157,
                         "name": "size",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 277,
-                        "src": "1608:4:2",
+                        "referencedDeclaration": 145,
+                        "src": "1608:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1203,39 +1203,39 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 288,
+                      "id": 156,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "1594:13:2",
+                      "src": "1594:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_uint256_$dyn_memory_$",
                         "typeString": "function (uint256) pure returns (uint256[] memory)"
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 286,
+                          "id": 154,
                           "name": "uint256",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1598:7:2",
+                          "src": "1598:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 287,
+                        "id": 155,
                         "length": null,
                         "nodeType": "ArrayTypeName",
-                        "src": "1598:9:2",
+                        "src": "1598:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                           "typeString": "uint256[]"
                         }
                       }
                     },
-                    "id": 290,
+                    "id": 158,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1243,25 +1243,25 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1594:19:2",
+                    "src": "1594:19:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_memory",
                       "typeString": "uint256[] memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1568:45:2"
+                  "src": "1568:45:1"
                 },
                 {
                   "body": {
-                    "id": 312,
+                    "id": 180,
                     "nodeType": "Block",
-                    "src": "1655:62:2",
+                    "src": "1655:62:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 310,
+                          "id": 178,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1270,26 +1270,26 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 302,
+                              "id": 170,
                               "name": "result",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 285,
-                              "src": "1669:6:2",
+                              "referencedDeclaration": 153,
+                              "src": "1669:6:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
                                 "typeString": "uint256[] memory"
                               }
                             },
-                            "id": 304,
+                            "id": 172,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 303,
+                              "id": 171,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 293,
-                              "src": "1676:1:2",
+                              "referencedDeclaration": 161,
+                              "src": "1676:1:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1300,7 +1300,7 @@
                             "isPure": false,
                             "lValueRequested": true,
                             "nodeType": "IndexAccess",
-                            "src": "1669:9:2",
+                            "src": "1669:9:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1314,26 +1314,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 305,
+                                "id": 173,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1681:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1681:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 307,
+                              "id": 175,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 306,
+                                "id": 174,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 270,
-                                "src": "1696:6:2",
+                                "referencedDeclaration": 138,
+                                "src": "1696:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -1344,21 +1344,21 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1681:22:2",
+                              "src": "1681:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 309,
+                            "id": 177,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 308,
+                              "id": 176,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 293,
-                              "src": "1704:1:2",
+                              "referencedDeclaration": 161,
+                              "src": "1704:1:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1369,21 +1369,21 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1681:25:2",
+                            "src": "1681:25:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1669:37:2",
+                          "src": "1669:37:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 311,
+                        "id": 179,
                         "nodeType": "ExpressionStatement",
-                        "src": "1669:37:2"
+                        "src": "1669:37:1"
                       }
                     ]
                   },
@@ -1393,19 +1393,19 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 298,
+                    "id": 166,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 296,
+                      "id": 164,
                       "name": "i",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 293,
-                      "src": "1640:1:2",
+                      "referencedDeclaration": 161,
+                      "src": "1640:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1415,36 +1415,36 @@
                     "operator": "<",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 297,
+                      "id": 165,
                       "name": "size",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 277,
-                      "src": "1644:4:2",
+                      "referencedDeclaration": 145,
+                      "src": "1644:4:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1640:8:2",
+                    "src": "1640:8:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 313,
+                  "id": 181,
                   "initializationExpression": {
                     "assignments": [
-                      293
+                      161
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 293,
+                        "id": 161,
                         "name": "i",
                         "nodeType": "VariableDeclaration",
-                        "scope": 317,
-                        "src": "1628:6:2",
+                        "scope": 185,
+                        "src": "1628:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -1452,10 +1452,10 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 292,
+                          "id": 160,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1628:4:2",
+                          "src": "1628:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1465,18 +1465,18 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 295,
+                    "id": 163,
                     "initialValue": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 294,
+                      "id": 162,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1637:1:2",
+                      "src": "1637:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -1485,12 +1485,12 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "1628:10:2"
+                    "src": "1628:10:1"
                   },
                   "loopExpression": {
                     "expression": {
                       "argumentTypes": null,
-                      "id": 300,
+                      "id": 168,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1498,15 +1498,15 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "1650:3:2",
+                      "src": "1650:3:1",
                       "subExpression": {
                         "argumentTypes": null,
-                        "id": 299,
+                        "id": 167,
                         "name": "i",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 293,
-                        "src": "1650:1:2",
+                        "referencedDeclaration": 161,
+                        "src": "1650:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1517,36 +1517,36 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 301,
+                    "id": 169,
                     "nodeType": "ExpressionStatement",
-                    "src": "1650:3:2"
+                    "src": "1650:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1623:94:2"
+                  "src": "1623:94:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 314,
+                    "id": 182,
                     "name": "result",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 285,
-                    "src": "1733:6:2",
+                    "referencedDeclaration": 153,
+                    "src": "1733:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
                       "typeString": "uint256[] memory"
                     }
                   },
-                  "functionReturnParameters": 275,
-                  "id": 315,
+                  "functionReturnParameters": 143,
+                  "id": 183,
                   "nodeType": "Return",
-                  "src": "1726:13:2"
+                  "src": "1726:13:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 317,
+            "id": 185,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1554,16 +1554,16 @@
             "name": "getAllWorkflows",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 271,
+              "id": 139,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 270,
+                  "id": 138,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 317,
-                  "src": "1458:14:2",
+                  "scope": 185,
+                  "src": "1458:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1571,10 +1571,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 269,
+                    "id": 137,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1458:7:2",
+                    "src": "1458:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1584,20 +1584,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1457:16:2"
+              "src": "1457:16:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 275,
+              "id": 143,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 274,
+                  "id": 142,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 317,
-                  "src": "1495:9:2",
+                  "scope": 185,
+                  "src": "1495:9:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1606,19 +1606,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 272,
+                      "id": 140,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1495:7:2",
+                      "src": "1495:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 273,
+                    "id": 141,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "1495:9:2",
+                    "src": "1495:9:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[]"
@@ -1628,19 +1628,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1494:11:2"
+              "src": "1494:11:1"
             },
-            "scope": 373,
-            "src": "1433:313:2",
+            "scope": 241,
+            "src": "1433:313:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 371,
+              "id": 239,
               "nodeType": "Block",
-              "src": "1819:405:2",
+              "src": "1819:405:1",
               "statements": [
                 {
                   "condition": {
@@ -1649,7 +1649,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 331,
+                    "id": 199,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1660,26 +1660,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 324,
+                          "id": 192,
                           "name": "ownedWorkflows",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 212,
-                          "src": "1833:14:2",
+                          "referencedDeclaration": 80,
+                          "src": "1833:14:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                             "typeString": "mapping(address => uint256[] storage ref)"
                           }
                         },
-                        "id": 326,
+                        "id": 194,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 325,
+                          "id": 193,
                           "name": "_owner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 319,
-                          "src": "1848:6:2",
+                          "referencedDeclaration": 187,
+                          "src": "1848:6:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1690,13 +1690,13 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1833:22:2",
+                        "src": "1833:22:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 327,
+                      "id": 195,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -1704,7 +1704,7 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1833:29:2",
+                      "src": "1833:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1716,26 +1716,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 328,
+                        "id": 196,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "1866:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "1866:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 330,
+                      "id": 198,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 329,
+                        "id": 197,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "1886:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "1886:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1746,27 +1746,27 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1866:27:2",
+                      "src": "1866:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1833:60:2",
+                    "src": "1833:60:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": {
-                    "id": 350,
+                    "id": 218,
                     "nodeType": "Block",
-                    "src": "1966:90:2",
+                    "src": "1966:90:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 348,
+                          "id": 216,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1777,26 +1777,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 340,
+                                "id": 208,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1980:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1980:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 345,
+                              "id": 213,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 341,
+                                "id": 209,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "1995:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "1995:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -1807,37 +1807,37 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1980:22:2",
+                              "src": "1980:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 346,
+                            "id": 214,
                             "indexExpression": {
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 342,
+                                "id": 210,
                                 "name": "workflowAmountOwned",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 216,
-                                "src": "2003:19:2",
+                                "referencedDeclaration": 84,
+                                "src": "2003:19:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                   "typeString": "mapping(address => uint256)"
                                 }
                               },
-                              "id": 344,
+                              "id": 212,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 343,
+                                "id": 211,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "2023:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "2023:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -1848,7 +1848,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "2003:27:2",
+                              "src": "2003:27:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1859,7 +1859,7 @@
                             "isPure": false,
                             "lValueRequested": true,
                             "nodeType": "IndexAccess",
-                            "src": "1980:51:2",
+                            "src": "1980:51:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1869,36 +1869,36 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 347,
+                            "id": 215,
                             "name": "_workflowId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 321,
-                            "src": "2034:11:2",
+                            "referencedDeclaration": 189,
+                            "src": "2034:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1980:65:2",
+                          "src": "1980:65:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 349,
+                        "id": 217,
                         "nodeType": "ExpressionStatement",
-                        "src": "1980:65:2"
+                        "src": "1980:65:1"
                       }
                     ]
                   },
-                  "id": 351,
+                  "id": 219,
                   "nodeType": "IfStatement",
-                  "src": "1829:227:2",
+                  "src": "1829:227:1",
                   "trueBody": {
-                    "id": 339,
+                    "id": 207,
                     "nodeType": "Block",
-                    "src": "1895:65:2",
+                    "src": "1895:65:1",
                     "statements": [
                       {
                         "expression": {
@@ -1906,12 +1906,12 @@
                           "arguments": [
                             {
                               "argumentTypes": null,
-                              "id": 336,
+                              "id": 204,
                               "name": "_workflowId",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 321,
-                              "src": "1937:11:2",
+                              "referencedDeclaration": 189,
+                              "src": "1937:11:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1929,26 +1929,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 332,
+                                "id": 200,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1909:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1909:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 334,
+                              "id": 202,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 333,
+                                "id": 201,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "1924:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "1924:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -1959,13 +1959,13 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1909:22:2",
+                              "src": "1909:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 335,
+                            "id": 203,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1973,13 +1973,13 @@
                             "memberName": "push",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1909:27:2",
+                            "src": "1909:27:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                               "typeString": "function (uint256) returns (uint256)"
                             }
                           },
-                          "id": 337,
+                          "id": 205,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1987,15 +1987,15 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "1909:40:2",
+                          "src": "1909:40:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 338,
+                        "id": 206,
                         "nodeType": "ExpressionStatement",
-                        "src": "1909:40:2"
+                        "src": "1909:40:1"
                       }
                     ]
                   }
@@ -2003,7 +2003,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 356,
+                    "id": 224,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2012,26 +2012,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 352,
+                        "id": 220,
                         "name": "workflowOwner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 224,
-                        "src": "2065:13:2",
+                        "referencedDeclaration": 92,
+                        "src": "2065:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                           "typeString": "mapping(uint256 => address)"
                         }
                       },
-                      "id": 354,
+                      "id": 222,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 353,
+                        "id": 221,
                         "name": "_workflowId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 321,
-                        "src": "2079:11:2",
+                        "referencedDeclaration": 189,
+                        "src": "2079:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2042,7 +2042,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2065:26:2",
+                      "src": "2065:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2052,31 +2052,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 355,
+                      "id": 223,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 319,
-                      "src": "2094:6:2",
+                      "referencedDeclaration": 187,
+                      "src": "2094:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "2065:35:2",
+                    "src": "2065:35:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 357,
+                  "id": 225,
                   "nodeType": "ExpressionStatement",
-                  "src": "2065:35:2"
+                  "src": "2065:35:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 364,
+                    "id": 232,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2085,26 +2085,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 358,
+                        "id": 226,
                         "name": "workflowIndexInOwnerArray",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 220,
-                        "src": "2110:25:2",
+                        "referencedDeclaration": 88,
+                        "src": "2110:25:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_uint256_$",
                           "typeString": "mapping(uint256 => uint256)"
                         }
                       },
-                      "id": 360,
+                      "id": 228,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 359,
+                        "id": 227,
                         "name": "_workflowId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 321,
-                        "src": "2136:11:2",
+                        "referencedDeclaration": 189,
+                        "src": "2136:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2115,7 +2115,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2110:38:2",
+                      "src": "2110:38:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2127,26 +2127,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 361,
+                        "id": 229,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "2151:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "2151:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 363,
+                      "id": 231,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 362,
+                        "id": 230,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "2171:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "2171:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2157,26 +2157,26 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "2151:27:2",
+                      "src": "2151:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2110:68:2",
+                    "src": "2110:68:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 365,
+                  "id": 233,
                   "nodeType": "ExpressionStatement",
-                  "src": "2110:68:2"
+                  "src": "2110:68:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 369,
+                    "id": 237,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2184,31 +2184,31 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "2188:29:2",
+                    "src": "2188:29:1",
                     "subExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 366,
+                        "id": 234,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "2188:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "2188:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 368,
+                      "id": 236,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 367,
+                        "id": 235,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "2208:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "2208:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2219,7 +2219,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2188:27:2",
+                      "src": "2188:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2230,14 +2230,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 370,
+                  "id": 238,
                   "nodeType": "ExpressionStatement",
-                  "src": "2188:29:2"
+                  "src": "2188:29:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 372,
+            "id": 240,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2245,16 +2245,16 @@
             "name": "_addTokenTo",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 322,
+              "id": 190,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 319,
+                  "id": 187,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 372,
-                  "src": "1773:14:2",
+                  "scope": 240,
+                  "src": "1773:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2262,10 +2262,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 318,
+                    "id": 186,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1773:7:2",
+                    "src": "1773:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2276,11 +2276,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 321,
+                  "id": 189,
                   "name": "_workflowId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 372,
-                  "src": "1789:19:2",
+                  "scope": 240,
+                  "src": "1789:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2288,10 +2288,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 320,
+                    "id": 188,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1789:7:2",
+                    "src": "1789:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2301,40 +2301,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1772:37:2"
+              "src": "1772:37:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 323,
+              "id": 191,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1819:0:2"
+              "src": "1819:0:1"
             },
-            "scope": 373,
-            "src": "1752:472:2",
+            "scope": 241,
+            "src": "1752:472:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 374,
-        "src": "213:2013:2"
+        "scope": 242,
+        "src": "213:2013:1"
       }
     ],
-    "src": "0:2226:2"
+    "src": "0:2226:1"
   },
   "legacyAST": {
     "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721.sol",
     "exportedSymbols": {
       "ERC721": [
-        373
+        241
       ]
     },
-    "id": 374,
+    "id": 242,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 202,
+        "id": 70,
         "literals": [
           "solidity",
           "^",
@@ -2342,16 +2342,16 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:2"
+        "src": "0:24:1"
       },
       {
         "absolutePath": "/Users/allanjiang/Developer/dapps/cs359b-web-workflow-marketplace/contracts/ERC721Basic.sol",
         "file": "./ERC721Basic.sol",
-        "id": 203,
+        "id": 71,
         "nodeType": "ImportDirective",
-        "scope": 374,
-        "sourceUnit": 425,
-        "src": "26:27:2",
+        "scope": 242,
+        "sourceUnit": 293,
+        "src": "26:27:1",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -2361,42 +2361,42 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 204,
+              "id": 72,
               "name": "ERC721Basic",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 424,
-              "src": "232:11:2",
+              "referencedDeclaration": 292,
+              "src": "232:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Basic_$424",
+                "typeIdentifier": "t_contract$_ERC721Basic_$292",
                 "typeString": "contract ERC721Basic"
               }
             },
-            "id": 205,
+            "id": 73,
             "nodeType": "InheritanceSpecifier",
-            "src": "232:11:2"
+            "src": "232:11:1"
           }
         ],
         "contractDependencies": [
-          424
+          292
         ],
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard, full implementation interface\n@dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
         "fullyImplemented": true,
-        "id": 373,
+        "id": 241,
         "linearizedBaseContracts": [
-          373,
-          424
+          241,
+          292
         ],
         "name": "ERC721",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 207,
+            "id": 75,
             "name": "totalWorkflows",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "250:29:2",
+            "scope": 241,
+            "src": "250:29:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2404,10 +2404,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 206,
+              "id": 74,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "250:7:2",
+              "src": "250:7:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -2418,11 +2418,11 @@
           },
           {
             "constant": false,
-            "id": 212,
+            "id": 80,
             "name": "ownedWorkflows",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "333:51:2",
+            "scope": 241,
+            "src": "333:51:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2430,38 +2430,38 @@
               "typeString": "mapping(address => uint256[])"
             },
             "typeName": {
-              "id": 211,
+              "id": 79,
               "keyType": {
-                "id": 208,
+                "id": 76,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "341:7:2",
+                "src": "341:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "333:29:2",
+              "src": "333:29:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                 "typeString": "mapping(address => uint256[])"
               },
               "valueType": {
                 "baseType": {
-                  "id": 209,
+                  "id": 77,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "352:7:2",
+                  "src": "352:7:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
                   }
                 },
-                "id": 210,
+                "id": 78,
                 "length": null,
                 "nodeType": "ArrayTypeName",
-                "src": "352:9:2",
+                "src": "352:9:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                   "typeString": "uint256[]"
@@ -2473,11 +2473,11 @@
           },
           {
             "constant": false,
-            "id": 216,
+            "id": 84,
             "name": "workflowAmountOwned",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "437:47:2",
+            "scope": 241,
+            "src": "437:47:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2485,28 +2485,28 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 215,
+              "id": 83,
               "keyType": {
-                "id": 213,
+                "id": 81,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "445:7:2",
+                "src": "445:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "437:27:2",
+              "src": "437:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 214,
+                "id": 82,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "456:7:2",
+                "src": "456:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -2518,11 +2518,11 @@
           },
           {
             "constant": false,
-            "id": 220,
+            "id": 88,
             "name": "workflowIndexInOwnerArray",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "531:53:2",
+            "scope": 241,
+            "src": "531:53:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2530,28 +2530,28 @@
               "typeString": "mapping(uint256 => uint256)"
             },
             "typeName": {
-              "id": 219,
+              "id": 87,
               "keyType": {
-                "id": 217,
+                "id": 85,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "539:7:2",
+                "src": "539:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "531:27:2",
+              "src": "531:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_uint256_$",
                 "typeString": "mapping(uint256 => uint256)"
               },
               "valueType": {
-                "id": 218,
+                "id": 86,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "550:7:2",
+                "src": "550:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -2563,11 +2563,11 @@
           },
           {
             "constant": false,
-            "id": 224,
+            "id": 92,
             "name": "workflowOwner",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "632:48:2",
+            "scope": 241,
+            "src": "632:48:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2575,28 +2575,28 @@
               "typeString": "mapping(uint256 => address)"
             },
             "typeName": {
-              "id": 223,
+              "id": 91,
               "keyType": {
-                "id": 221,
+                "id": 89,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "640:7:2",
+                "src": "640:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "632:27:2",
+              "src": "632:27:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                 "typeString": "mapping(uint256 => address)"
               },
               "valueType": {
-                "id": 222,
+                "id": 90,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "651:7:2",
+                "src": "651:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -2608,11 +2608,11 @@
           },
           {
             "constant": false,
-            "id": 228,
+            "id": 96,
             "name": "existingWorkflowIds",
             "nodeType": "VariableDeclaration",
-            "scope": 373,
-            "src": "767:51:2",
+            "scope": 241,
+            "src": "767:51:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2620,28 +2620,28 @@
               "typeString": "mapping(uint256 => bool)"
             },
             "typeName": {
-              "id": 227,
+              "id": 95,
               "keyType": {
-                "id": 225,
+                "id": 93,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "775:7:2",
+                "src": "775:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "767:24:2",
+              "src": "767:24:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_bool_$",
                 "typeString": "mapping(uint256 => bool)"
               },
               "valueType": {
-                "id": 226,
+                "id": 94,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
-                "src": "786:4:2",
+                "src": "786:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bool",
                   "typeString": "bool"
@@ -2653,33 +2653,33 @@
           },
           {
             "body": {
-              "id": 235,
+              "id": 103,
               "nodeType": "Block",
-              "src": "929:38:2",
+              "src": "929:38:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 233,
+                    "id": 101,
                     "name": "totalWorkflows",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 207,
-                    "src": "946:14:2",
+                    "referencedDeclaration": 75,
+                    "src": "946:14:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 232,
-                  "id": 234,
+                  "functionReturnParameters": 100,
+                  "id": 102,
                   "nodeType": "Return",
-                  "src": "939:21:2"
+                  "src": "939:21:1"
                 }
               ]
             },
             "documentation": "Override ERC721.sol",
-            "id": 236,
+            "id": 104,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2687,23 +2687,23 @@
             "name": "totalWorkflowSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 229,
+              "id": 97,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "896:2:2"
+              "src": "896:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 232,
+              "id": 100,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 231,
+                  "id": 99,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 236,
-                  "src": "920:7:2",
+                  "scope": 104,
+                  "src": "920:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2711,10 +2711,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 230,
+                    "id": 98,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "920:7:2",
+                    "src": "920:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2724,45 +2724,45 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "919:9:2"
+              "src": "919:9:1"
             },
-            "scope": 373,
-            "src": "868:99:2",
+            "scope": 241,
+            "src": "868:99:1",
             "stateMutability": "view",
-            "superFunction": 416,
+            "superFunction": 284,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 247,
+              "id": 115,
               "nodeType": "Block",
-              "src": "1094:51:2",
+              "src": "1094:51:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 243,
+                      "id": 111,
                       "name": "workflowAmountOwned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 216,
-                      "src": "1111:19:2",
+                      "referencedDeclaration": 84,
+                      "src": "1111:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 245,
+                    "id": 113,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 244,
+                      "id": 112,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 238,
-                      "src": "1131:6:2",
+                      "referencedDeclaration": 106,
+                      "src": "1131:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2773,21 +2773,21 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1111:27:2",
+                    "src": "1111:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 242,
-                  "id": 246,
+                  "functionReturnParameters": 110,
+                  "id": 114,
                   "nodeType": "Return",
-                  "src": "1104:34:2"
+                  "src": "1104:34:1"
                 }
               ]
             },
             "documentation": "Override ERC721Basic.sol",
-            "id": 248,
+            "id": 116,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2795,16 +2795,16 @@
             "name": "workflowBalanceOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 239,
+              "id": 107,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 238,
+                  "id": 106,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 248,
-                  "src": "1048:14:2",
+                  "scope": 116,
+                  "src": "1048:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2812,10 +2812,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 237,
+                    "id": 105,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1048:7:2",
+                    "src": "1048:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2825,20 +2825,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1047:16:2"
+              "src": "1047:16:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 242,
+              "id": 110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 241,
+                  "id": 109,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 248,
-                  "src": "1085:7:2",
+                  "scope": 116,
+                  "src": "1085:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2846,10 +2846,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 240,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1085:7:2",
+                    "src": "1085:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2859,19 +2859,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1084:9:2"
+              "src": "1084:9:1"
             },
-            "scope": 373,
-            "src": "1021:124:2",
+            "scope": 241,
+            "src": "1021:124:1",
             "stateMutability": "view",
-            "superFunction": 423,
+            "superFunction": 291,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 267,
+              "id": 135,
               "nodeType": "Block",
-              "src": "1275:152:2",
+              "src": "1275:152:1",
               "statements": [
                 {
                   "expression": {
@@ -2883,7 +2883,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 260,
+                        "id": 128,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2892,26 +2892,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 256,
+                            "id": 124,
                             "name": "existingWorkflowIds",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 228,
-                            "src": "1336:19:2",
+                            "referencedDeclaration": 96,
+                            "src": "1336:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_uint256_$_t_bool_$",
                               "typeString": "mapping(uint256 => bool)"
                             }
                           },
-                          "id": 258,
+                          "id": 126,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 257,
+                            "id": 125,
                             "name": "_workflowId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 250,
-                            "src": "1356:11:2",
+                            "referencedDeclaration": 118,
+                            "src": "1356:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2922,7 +2922,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1336:32:2",
+                          "src": "1336:32:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -2933,14 +2933,14 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 259,
+                          "id": 127,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1372:4:2",
+                          "src": "1372:4:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -2948,7 +2948,7 @@
                           },
                           "value": "true"
                         },
-                        "src": "1336:40:2",
+                        "src": "1336:40:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2962,21 +2962,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 255,
+                      "id": 123,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2524,
-                        2525
+                        1633,
+                        1634
                       ],
-                      "referencedDeclaration": 2524,
-                      "src": "1328:7:2",
+                      "referencedDeclaration": 1633,
+                      "src": "1328:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 261,
+                    "id": 129,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2984,41 +2984,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1328:49:2",
+                    "src": "1328:49:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 262,
+                  "id": 130,
                   "nodeType": "ExpressionStatement",
-                  "src": "1328:49:2"
+                  "src": "1328:49:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 263,
+                      "id": 131,
                       "name": "workflowOwner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 224,
-                      "src": "1394:13:2",
+                      "referencedDeclaration": 92,
+                      "src": "1394:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                         "typeString": "mapping(uint256 => address)"
                       }
                     },
-                    "id": 265,
+                    "id": 133,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 264,
+                      "id": 132,
                       "name": "_workflowId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 250,
-                      "src": "1408:11:2",
+                      "referencedDeclaration": 118,
+                      "src": "1408:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3029,21 +3029,21 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1394:26:2",
+                    "src": "1394:26:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 254,
-                  "id": 266,
+                  "functionReturnParameters": 122,
+                  "id": 134,
                   "nodeType": "Return",
-                  "src": "1387:33:2"
+                  "src": "1387:33:1"
                 }
               ]
             },
             "documentation": "Override ERC721Basic.sol",
-            "id": 268,
+            "id": 136,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3051,16 +3051,16 @@
             "name": "ownerOfWorkflow",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 251,
+              "id": 119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 250,
+                  "id": 118,
                   "name": "_workflowId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 268,
-                  "src": "1224:19:2",
+                  "scope": 136,
+                  "src": "1224:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3068,10 +3068,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 249,
+                    "id": 117,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1224:7:2",
+                    "src": "1224:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3081,20 +3081,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1223:21:2"
+              "src": "1223:21:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 254,
+              "id": 122,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 253,
+                  "id": 121,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 268,
-                  "src": "1266:7:2",
+                  "scope": 136,
+                  "src": "1266:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3102,10 +3102,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 252,
+                    "id": 120,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1266:7:2",
+                    "src": "1266:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3115,32 +3115,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1265:9:2"
+              "src": "1265:9:1"
             },
-            "scope": 373,
-            "src": "1199:228:2",
+            "scope": 241,
+            "src": "1199:228:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 316,
+              "id": 184,
               "nodeType": "Block",
-              "src": "1506:240:2",
+              "src": "1506:240:1",
               "statements": [
                 {
                   "assignments": [
-                    277
+                    145
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 277,
+                      "id": 145,
                       "name": "size",
                       "nodeType": "VariableDeclaration",
-                      "scope": 317,
-                      "src": "1516:12:2",
+                      "scope": 185,
+                      "src": "1516:12:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3148,10 +3148,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 276,
+                        "id": 144,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1516:7:2",
+                        "src": "1516:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3161,31 +3161,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 281,
+                  "id": 149,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 278,
+                      "id": 146,
                       "name": "workflowAmountOwned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 216,
-                      "src": "1531:19:2",
+                      "referencedDeclaration": 84,
+                      "src": "1531:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 280,
+                    "id": 148,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 279,
+                      "id": 147,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 270,
-                      "src": "1551:6:2",
+                      "referencedDeclaration": 138,
+                      "src": "1551:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -3196,27 +3196,27 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1531:27:2",
+                    "src": "1531:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1516:42:2"
+                  "src": "1516:42:1"
                 },
                 {
                   "assignments": [
-                    285
+                    153
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 285,
+                      "id": 153,
                       "name": "result",
                       "nodeType": "VariableDeclaration",
-                      "scope": 317,
-                      "src": "1568:23:2",
+                      "scope": 185,
+                      "src": "1568:23:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -3225,19 +3225,19 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 283,
+                          "id": 151,
                           "name": "uint256",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1568:7:2",
+                          "src": "1568:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 284,
+                        "id": 152,
                         "length": null,
                         "nodeType": "ArrayTypeName",
-                        "src": "1568:9:2",
+                        "src": "1568:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                           "typeString": "uint256[]"
@@ -3247,18 +3247,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 291,
+                  "id": 159,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 289,
+                        "id": 157,
                         "name": "size",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 277,
-                        "src": "1608:4:2",
+                        "referencedDeclaration": 145,
+                        "src": "1608:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3272,39 +3272,39 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 288,
+                      "id": 156,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "1594:13:2",
+                      "src": "1594:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_uint256_$dyn_memory_$",
                         "typeString": "function (uint256) pure returns (uint256[] memory)"
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 286,
+                          "id": 154,
                           "name": "uint256",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1598:7:2",
+                          "src": "1598:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 287,
+                        "id": 155,
                         "length": null,
                         "nodeType": "ArrayTypeName",
-                        "src": "1598:9:2",
+                        "src": "1598:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                           "typeString": "uint256[]"
                         }
                       }
                     },
-                    "id": 290,
+                    "id": 158,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3312,25 +3312,25 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1594:19:2",
+                    "src": "1594:19:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_memory",
                       "typeString": "uint256[] memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1568:45:2"
+                  "src": "1568:45:1"
                 },
                 {
                   "body": {
-                    "id": 312,
+                    "id": 180,
                     "nodeType": "Block",
-                    "src": "1655:62:2",
+                    "src": "1655:62:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 310,
+                          "id": 178,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3339,26 +3339,26 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 302,
+                              "id": 170,
                               "name": "result",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 285,
-                              "src": "1669:6:2",
+                              "referencedDeclaration": 153,
+                              "src": "1669:6:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
                                 "typeString": "uint256[] memory"
                               }
                             },
-                            "id": 304,
+                            "id": 172,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 303,
+                              "id": 171,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 293,
-                              "src": "1676:1:2",
+                              "referencedDeclaration": 161,
+                              "src": "1676:1:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3369,7 +3369,7 @@
                             "isPure": false,
                             "lValueRequested": true,
                             "nodeType": "IndexAccess",
-                            "src": "1669:9:2",
+                            "src": "1669:9:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3383,26 +3383,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 305,
+                                "id": 173,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1681:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1681:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 307,
+                              "id": 175,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 306,
+                                "id": 174,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 270,
-                                "src": "1696:6:2",
+                                "referencedDeclaration": 138,
+                                "src": "1696:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3413,21 +3413,21 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1681:22:2",
+                              "src": "1681:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 309,
+                            "id": 177,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 308,
+                              "id": 176,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 293,
-                              "src": "1704:1:2",
+                              "referencedDeclaration": 161,
+                              "src": "1704:1:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3438,21 +3438,21 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1681:25:2",
+                            "src": "1681:25:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1669:37:2",
+                          "src": "1669:37:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 311,
+                        "id": 179,
                         "nodeType": "ExpressionStatement",
-                        "src": "1669:37:2"
+                        "src": "1669:37:1"
                       }
                     ]
                   },
@@ -3462,19 +3462,19 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 298,
+                    "id": 166,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 296,
+                      "id": 164,
                       "name": "i",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 293,
-                      "src": "1640:1:2",
+                      "referencedDeclaration": 161,
+                      "src": "1640:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3484,36 +3484,36 @@
                     "operator": "<",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 297,
+                      "id": 165,
                       "name": "size",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 277,
-                      "src": "1644:4:2",
+                      "referencedDeclaration": 145,
+                      "src": "1644:4:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1640:8:2",
+                    "src": "1640:8:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 313,
+                  "id": 181,
                   "initializationExpression": {
                     "assignments": [
-                      293
+                      161
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 293,
+                        "id": 161,
                         "name": "i",
                         "nodeType": "VariableDeclaration",
-                        "scope": 317,
-                        "src": "1628:6:2",
+                        "scope": 185,
+                        "src": "1628:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -3521,10 +3521,10 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 292,
+                          "id": 160,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1628:4:2",
+                          "src": "1628:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3534,18 +3534,18 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 295,
+                    "id": 163,
                     "initialValue": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 294,
+                      "id": 162,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1637:1:2",
+                      "src": "1637:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -3554,12 +3554,12 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "1628:10:2"
+                    "src": "1628:10:1"
                   },
                   "loopExpression": {
                     "expression": {
                       "argumentTypes": null,
-                      "id": 300,
+                      "id": 168,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3567,15 +3567,15 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "1650:3:2",
+                      "src": "1650:3:1",
                       "subExpression": {
                         "argumentTypes": null,
-                        "id": 299,
+                        "id": 167,
                         "name": "i",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 293,
-                        "src": "1650:1:2",
+                        "referencedDeclaration": 161,
+                        "src": "1650:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3586,36 +3586,36 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 301,
+                    "id": 169,
                     "nodeType": "ExpressionStatement",
-                    "src": "1650:3:2"
+                    "src": "1650:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1623:94:2"
+                  "src": "1623:94:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 314,
+                    "id": 182,
                     "name": "result",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 285,
-                    "src": "1733:6:2",
+                    "referencedDeclaration": 153,
+                    "src": "1733:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
                       "typeString": "uint256[] memory"
                     }
                   },
-                  "functionReturnParameters": 275,
-                  "id": 315,
+                  "functionReturnParameters": 143,
+                  "id": 183,
                   "nodeType": "Return",
-                  "src": "1726:13:2"
+                  "src": "1726:13:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 317,
+            "id": 185,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3623,16 +3623,16 @@
             "name": "getAllWorkflows",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 271,
+              "id": 139,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 270,
+                  "id": 138,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 317,
-                  "src": "1458:14:2",
+                  "scope": 185,
+                  "src": "1458:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3640,10 +3640,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 269,
+                    "id": 137,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1458:7:2",
+                    "src": "1458:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3653,20 +3653,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1457:16:2"
+              "src": "1457:16:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 275,
+              "id": 143,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 274,
+                  "id": 142,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 317,
-                  "src": "1495:9:2",
+                  "scope": 185,
+                  "src": "1495:9:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3675,19 +3675,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 272,
+                      "id": 140,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1495:7:2",
+                      "src": "1495:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 273,
+                    "id": 141,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "1495:9:2",
+                    "src": "1495:9:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[]"
@@ -3697,19 +3697,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1494:11:2"
+              "src": "1494:11:1"
             },
-            "scope": 373,
-            "src": "1433:313:2",
+            "scope": 241,
+            "src": "1433:313:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 371,
+              "id": 239,
               "nodeType": "Block",
-              "src": "1819:405:2",
+              "src": "1819:405:1",
               "statements": [
                 {
                   "condition": {
@@ -3718,7 +3718,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 331,
+                    "id": 199,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3729,26 +3729,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 324,
+                          "id": 192,
                           "name": "ownedWorkflows",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 212,
-                          "src": "1833:14:2",
+                          "referencedDeclaration": 80,
+                          "src": "1833:14:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                             "typeString": "mapping(address => uint256[] storage ref)"
                           }
                         },
-                        "id": 326,
+                        "id": 194,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 325,
+                          "id": 193,
                           "name": "_owner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 319,
-                          "src": "1848:6:2",
+                          "referencedDeclaration": 187,
+                          "src": "1848:6:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3759,13 +3759,13 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1833:22:2",
+                        "src": "1833:22:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 327,
+                      "id": 195,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -3773,7 +3773,7 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1833:29:2",
+                      "src": "1833:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3785,26 +3785,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 328,
+                        "id": 196,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "1866:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "1866:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 330,
+                      "id": 198,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 329,
+                        "id": 197,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "1886:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "1886:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3815,27 +3815,27 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1866:27:2",
+                      "src": "1866:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1833:60:2",
+                    "src": "1833:60:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": {
-                    "id": 350,
+                    "id": 218,
                     "nodeType": "Block",
-                    "src": "1966:90:2",
+                    "src": "1966:90:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 348,
+                          "id": 216,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3846,26 +3846,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 340,
+                                "id": 208,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1980:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1980:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 345,
+                              "id": 213,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 341,
+                                "id": 209,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "1995:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "1995:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3876,37 +3876,37 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1980:22:2",
+                              "src": "1980:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 346,
+                            "id": 214,
                             "indexExpression": {
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 342,
+                                "id": 210,
                                 "name": "workflowAmountOwned",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 216,
-                                "src": "2003:19:2",
+                                "referencedDeclaration": 84,
+                                "src": "2003:19:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                   "typeString": "mapping(address => uint256)"
                                 }
                               },
-                              "id": 344,
+                              "id": 212,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 343,
+                                "id": 211,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "2023:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "2023:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3917,7 +3917,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "2003:27:2",
+                              "src": "2003:27:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3928,7 +3928,7 @@
                             "isPure": false,
                             "lValueRequested": true,
                             "nodeType": "IndexAccess",
-                            "src": "1980:51:2",
+                            "src": "1980:51:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3938,36 +3938,36 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 347,
+                            "id": 215,
                             "name": "_workflowId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 321,
-                            "src": "2034:11:2",
+                            "referencedDeclaration": 189,
+                            "src": "2034:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1980:65:2",
+                          "src": "1980:65:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 349,
+                        "id": 217,
                         "nodeType": "ExpressionStatement",
-                        "src": "1980:65:2"
+                        "src": "1980:65:1"
                       }
                     ]
                   },
-                  "id": 351,
+                  "id": 219,
                   "nodeType": "IfStatement",
-                  "src": "1829:227:2",
+                  "src": "1829:227:1",
                   "trueBody": {
-                    "id": 339,
+                    "id": 207,
                     "nodeType": "Block",
-                    "src": "1895:65:2",
+                    "src": "1895:65:1",
                     "statements": [
                       {
                         "expression": {
@@ -3975,12 +3975,12 @@
                           "arguments": [
                             {
                               "argumentTypes": null,
-                              "id": 336,
+                              "id": 204,
                               "name": "_workflowId",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 321,
-                              "src": "1937:11:2",
+                              "referencedDeclaration": 189,
+                              "src": "1937:11:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3998,26 +3998,26 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 332,
+                                "id": 200,
                                 "name": "ownedWorkflows",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 212,
-                                "src": "1909:14:2",
+                                "referencedDeclaration": 80,
+                                "src": "1909:14:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$dyn_storage_$",
                                   "typeString": "mapping(address => uint256[] storage ref)"
                                 }
                               },
-                              "id": 334,
+                              "id": 202,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 333,
+                                "id": 201,
                                 "name": "_owner",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 319,
-                                "src": "1924:6:2",
+                                "referencedDeclaration": 187,
+                                "src": "1924:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -4028,13 +4028,13 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1909:22:2",
+                              "src": "1909:22:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                                 "typeString": "uint256[] storage ref"
                               }
                             },
-                            "id": 335,
+                            "id": 203,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4042,13 +4042,13 @@
                             "memberName": "push",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1909:27:2",
+                            "src": "1909:27:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                               "typeString": "function (uint256) returns (uint256)"
                             }
                           },
-                          "id": 337,
+                          "id": 205,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4056,15 +4056,15 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "1909:40:2",
+                          "src": "1909:40:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 338,
+                        "id": 206,
                         "nodeType": "ExpressionStatement",
-                        "src": "1909:40:2"
+                        "src": "1909:40:1"
                       }
                     ]
                   }
@@ -4072,7 +4072,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 356,
+                    "id": 224,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4081,26 +4081,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 352,
+                        "id": 220,
                         "name": "workflowOwner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 224,
-                        "src": "2065:13:2",
+                        "referencedDeclaration": 92,
+                        "src": "2065:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                           "typeString": "mapping(uint256 => address)"
                         }
                       },
-                      "id": 354,
+                      "id": 222,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 353,
+                        "id": 221,
                         "name": "_workflowId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 321,
-                        "src": "2079:11:2",
+                        "referencedDeclaration": 189,
+                        "src": "2079:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -4111,7 +4111,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2065:26:2",
+                      "src": "2065:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -4121,31 +4121,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 355,
+                      "id": 223,
                       "name": "_owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 319,
-                      "src": "2094:6:2",
+                      "referencedDeclaration": 187,
+                      "src": "2094:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "2065:35:2",
+                    "src": "2065:35:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 357,
+                  "id": 225,
                   "nodeType": "ExpressionStatement",
-                  "src": "2065:35:2"
+                  "src": "2065:35:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 364,
+                    "id": 232,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4154,26 +4154,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 358,
+                        "id": 226,
                         "name": "workflowIndexInOwnerArray",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 220,
-                        "src": "2110:25:2",
+                        "referencedDeclaration": 88,
+                        "src": "2110:25:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_uint256_$",
                           "typeString": "mapping(uint256 => uint256)"
                         }
                       },
-                      "id": 360,
+                      "id": 228,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 359,
+                        "id": 227,
                         "name": "_workflowId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 321,
-                        "src": "2136:11:2",
+                        "referencedDeclaration": 189,
+                        "src": "2136:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -4184,7 +4184,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2110:38:2",
+                      "src": "2110:38:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -4196,26 +4196,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 361,
+                        "id": 229,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "2151:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "2151:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 363,
+                      "id": 231,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 362,
+                        "id": 230,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "2171:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "2171:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -4226,26 +4226,26 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "2151:27:2",
+                      "src": "2151:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2110:68:2",
+                    "src": "2110:68:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 365,
+                  "id": 233,
                   "nodeType": "ExpressionStatement",
-                  "src": "2110:68:2"
+                  "src": "2110:68:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 369,
+                    "id": 237,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4253,31 +4253,31 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "2188:29:2",
+                    "src": "2188:29:1",
                     "subExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 366,
+                        "id": 234,
                         "name": "workflowAmountOwned",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "2188:19:2",
+                        "referencedDeclaration": 84,
+                        "src": "2188:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 368,
+                      "id": 236,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 367,
+                        "id": 235,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 319,
-                        "src": "2208:6:2",
+                        "referencedDeclaration": 187,
+                        "src": "2208:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -4288,7 +4288,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "2188:27:2",
+                      "src": "2188:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -4299,14 +4299,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 370,
+                  "id": 238,
                   "nodeType": "ExpressionStatement",
-                  "src": "2188:29:2"
+                  "src": "2188:29:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 372,
+            "id": 240,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -4314,16 +4314,16 @@
             "name": "_addTokenTo",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 322,
+              "id": 190,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 319,
+                  "id": 187,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 372,
-                  "src": "1773:14:2",
+                  "scope": 240,
+                  "src": "1773:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4331,10 +4331,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 318,
+                    "id": 186,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1773:7:2",
+                    "src": "1773:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -4345,11 +4345,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 321,
+                  "id": 189,
                   "name": "_workflowId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 372,
-                  "src": "1789:19:2",
+                  "scope": 240,
+                  "src": "1789:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4357,10 +4357,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 320,
+                    "id": 188,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1789:7:2",
+                    "src": "1789:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -4370,27 +4370,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1772:37:2"
+              "src": "1772:37:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 323,
+              "id": 191,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1819:0:2"
+              "src": "1819:0:1"
             },
-            "scope": 373,
-            "src": "1752:472:2",
+            "scope": 241,
+            "src": "1752:472:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 374,
-        "src": "213:2013:2"
+        "scope": 242,
+        "src": "213:2013:1"
       }
     ],
-    "src": "0:2226:2"
+    "src": "0:2226:1"
   },
   "compiler": {
     "name": "solc",
@@ -4398,5 +4398,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-14T19:42:43.975Z"
+  "updatedAt": "2018-06-04T06:24:17.794Z"
 }
