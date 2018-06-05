@@ -30,7 +30,7 @@ library SafeMath {
 
 contract WorkflowToken is ERC20 {
     using SafeMath for uint256;
-    string public symbol = "Coin";
+    string public symbol = "WFT";
     string public name = "WorkflowToken";
     uint256 public _totalSupply = 2100000;
     uint8 public constant decimals = 18;
