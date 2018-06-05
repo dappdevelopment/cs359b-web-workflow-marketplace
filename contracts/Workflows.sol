@@ -24,7 +24,7 @@ contract Workflows is ERC721 {
         uint256 totalStars;
         // Total number of ratings
         uint256 totalRatings;
-        // Number of one, two, ..., five stars 
+        // Number of one, two, ..., five stars
         uint256 numOneStars;
         uint256 numTwoStars;
         uint256 numThreeStars;
@@ -58,7 +58,7 @@ contract Workflows is ERC721 {
         workflows[_workflowId].totalStars = 0;
         workflows[_workflowId].totalRatings = 0;
         totalWorkflows++;
-        
+
         emit WorkflowCreated(_workflowId, msg.sender);
     }
 
@@ -81,7 +81,7 @@ contract Workflows is ERC721 {
         require(_stars == 1 || _stars == 2 || _stars == 3 || _stars == 4 || _stars == 5);
         // Author cannot rate his/her own workflow
         require(workflows[_workflowId].author != msg.sender);
-        
+
         Rating memory rating = Rating({
             stars: _stars,
             review: _review,
@@ -112,12 +112,12 @@ contract Workflows is ERC721 {
 
     // @notice Examine the details of a selected workflow
     // @param _workflowId The Id of the workflow to be examined
-    function seeWorkflowDetails(uint256 _workflowId) public view 
+    function seeWorkflowDetails(uint256 _workflowId) public view
         returns (string, uint256, address, string, uint256, uint256, uint256) {
         // Require that _workflowId exists
         require(existingWorkflowIds[_workflowId] == true);
-        return (workflows[_workflowId].name, _workflowId, workflows[_workflowId].author, 
-            workflows[_workflowId].tag, workflows[_workflowId].price, 
+        return (workflows[_workflowId].name, _workflowId, workflows[_workflowId].author,
+            workflows[_workflowId].tag, workflows[_workflowId].price,
             workflows[_workflowId].totalStars, workflows[_workflowId].totalRatings);
     }
 

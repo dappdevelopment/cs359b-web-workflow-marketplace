@@ -6,6 +6,7 @@ contract SimpleChannel {
   struct Channel {
     address sender;
     address recipient;
+    uint deposit;
     uint startDate;
     uint timeout;
   }
@@ -15,6 +16,7 @@ contract SimpleChannel {
 
   function OpenChannel(address to, uint timeout) payable public returns (bytes32) {
     require(to != msg.sender);
+    require(active_ids[msg.sender][to] == bytes32(0));
 
     // Create a channel
     bytes32 id = keccak256(msg.sender, to, now);
@@ -23,10 +25,12 @@ contract SimpleChannel {
     Channel memory _channel;
     _channel.recipient = to;
     _channel.sender = msg.sender;
+    _channel.deposit = msg.value;
     _channel.startDate = now;
     _channel.timeout = timeout;
 
     channels[id] = _channel;
+    active_ids[msg.sender][to] = id;
     return id;
   }
 
@@ -58,8 +62,12 @@ contract SimpleChannel {
       signatures[proof] = signer;
     else if (signatures[proof] != signer) {
       // channel completed, both signatures provided
+      require(channel.deposit >= value);
       require(channelRecipient.send(value));
-      selfdestruct(channelSender);
+      // selfdestruct(channelSender);
+      require(channelSender.send(channel.deposit - value));
+      delete active_ids[channels[h[0]].sender][channels[h[0]].recipient];
+      delete channels[h[0]];
     }
 
   }
@@ -73,12 +81,17 @@ contract SimpleChannel {
 
     require(startDate + channelTimeout <= now);
 
-    selfdestruct(channelSender);
+    require(channelSender.send(channel.deposit));
+    // selfdestruct(channelSender);
   }
 
-  // function GetChannelId(address from, address to) public constant returns (bytes32) {
-  //   return active_ids[from][to];
-  // }
+  function GetChannelId(address from, address to) public constant returns (bytes32) {
+    return active_ids[from][to];
+  }
+
+  function GetDeposit(bytes32 id) public constant returns (uint) {
+    return channels[id].deposit;
+  }
 
   function GetSender(bytes32 id) public constant returns (address) {
     return channels[id].sender;
