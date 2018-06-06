@@ -36,40 +36,30 @@ contract SimpleChannel {
   // https://ethereum.stackexchange.com/questions/1777/workflow-on-signing-a-string-with-private-key-followed-by-signature-verificatio
   // usage: Alice needs to call CloseChannel twice for multi-sig
   // once with Bob's signed pair and once with her own.
-  function CloseChannel(bytes32 id, bytes32 h, uint8 sv, bytes32 sr, bytes32 ss, uint8 rv, bytes32 rr, bytes32 rs, uint value) public {
+  function CloseChannel(bytes32 id, bytes32 h,
+                        uint8 v, bytes32 r, bytes32 s,
+                        uint value) public {
 
-    address ssigner;
-    address rsigner;
-    bytes32 proof;
     require(DoesChannelExist(id));
     Channel memory channel = channels[id];
-    address channelSender = channel.sender;
-    address channelRecipient = channel.recipient;
 
-    // get signer from signature
-    ssigner = ecrecover(h, sv, sr, ss);
+    // Only the recipient can close a channel
+    require(msg.sender == channel.recipient);
 
-    // require signature from valid party
-    require(ssigner == channelSender);
+    // Only the sender's signature can unlock the channel
+    address signer = ecrecover(h, v, r, s);
+    require(signer == channel.sender);
 
-    // get signer from signature
-    rsigner = ecrecover(h, rv, rr, rs);
-
-    // require signature from valid party
-    require(rsigner == channelRecipient);
-
-    proof = keccak256(id, value);
-
-    // signature is valid but doesn't match the data provided
+    // Make sure signed hash matches the channel and amount
+    bytes32 proof = keccak256(id, value);
     require(proof == h);
 
-    // channel completed, both signatures provided
+    // Disburse money, delete the channel
     require(channel.deposit >= value);
-    require(channelRecipient.send(value));
-    // selfdestruct(channelSender);
-    require(channelSender.send(channel.deposit - value));
-    delete active_ids[channels[h[0]].sender][channels[h[0]].recipient];
-    delete channels[h[0]];
+    require(channel.recipient.send(value));
+    require(channel.sender.send(channel.deposit - value));
+    delete active_ids[channel.sender][channel.recipient];
+    delete channels[id];
   }
 
 
@@ -83,7 +73,6 @@ contract SimpleChannel {
     require(startDate + channelTimeout <= now);
 
     require(channelSender.send(channel.deposit));
-    // selfdestruct(channelSender);
   }
 
   function GetChannelId(address from, address to) public constant returns (bytes32) {
@@ -107,6 +96,20 @@ contract SimpleChannel {
     return channels[id].sender != address(0);
   }
 
+
+  function Keccak2(bytes32 from, uint to) public pure returns (bytes32) {
+    return keccak256(from,to);
+  }
+  function Keccak1(bytes32 from) public pure returns (bytes32) {
+    return keccak256(from);
+  }
+  function Sha3(bytes32 from) public pure returns (bytes32) {
+    return sha3(from);
+  }
+  function Test(bytes32 id, uint value, bytes32 h) public pure returns (bool) {
+    bytes32 proof = keccak256(id, value);
+    return proof == h;
+  }
 
 
 
